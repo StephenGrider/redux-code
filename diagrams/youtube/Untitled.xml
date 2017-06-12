@@ -1,1 +1,0 @@
-<mxlibrary>[]</mxlibrary>
