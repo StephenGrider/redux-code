@@ -4,6 +4,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // Create a new React component
+const App = function() {
+  return <div>Hi there!</div>;
+};
 
 // Render, or 'show', that component in the DOM
 // so that the user can see it
