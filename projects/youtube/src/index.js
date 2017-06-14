@@ -4,9 +4,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // Create a new React component
-const App = function() {
+const App = () => {
   return <div>Hi there!</div>;
 };
 
 // Render, or 'show', that component in the DOM
 // so that the user can see it
+// TODO: First argument is wrong!
+ReactDOM.render(App, document.getElementById('root'));
