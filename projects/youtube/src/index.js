@@ -10,5 +10,4 @@ const App = () => {
 
 // Render, or 'show', that component in the DOM
 // so that the user can see it
-// TODO: First argument is wrong!
-ReactDOM.render(App, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
