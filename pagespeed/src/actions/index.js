@@ -1,3 +1,7 @@
+import google from '../apis/google';
+
 export const fetchReport = url => {
-  console.log(url);
+  google.get('/runPagespeed', {
+    params: { url }
+  });
 };
