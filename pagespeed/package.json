@@ -8,7 +8,8 @@
     "react-dom": "^16.6.1",
     "react-redux": "^5.1.0",
     "react-scripts": "2.1.1",
-    "redux": "^4.0.1"
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
