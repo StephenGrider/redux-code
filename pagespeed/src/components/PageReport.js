@@ -1,9 +1,12 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-const PageReport = props => {
-  console.log(props.report);
-  return <div>Page Report</div>;
+const PageReport = ({ report }) => {
+  if (!report) {
+    return <div>Enter a URL to get started</div>;
+  }
+
+  return <div>{report.id}</div>;
 };
 
 const mapStateToProps = state => {
