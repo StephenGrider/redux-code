@@ -3,3 +3,7 @@
   flex-direction: column;
   align-items: center;
 }
+
+.statistics.segment {
+  margin-bottom: 10px;
+}
