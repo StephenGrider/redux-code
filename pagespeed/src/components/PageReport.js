@@ -2,6 +2,7 @@ import './PageReport.css';
 import React from 'react';
 import { connect } from 'react-redux';
 import Statistics from './Statistics';
+import ResultList from './ResultList';
 
 const PageReport = ({ report }) => {
   if (!report) {
@@ -12,6 +13,7 @@ const PageReport = ({ report }) => {
     <div className="page-report">
       <h1 className="ui center aligned header">Report For: {report.id}</h1>
       <Statistics report={report} />
+      <ResultList report={report} />
     </div>
   );
 };
