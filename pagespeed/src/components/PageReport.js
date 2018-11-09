@@ -1,3 +1,4 @@
+import './PageReport.css';
 import React from 'react';
 import { connect } from 'react-redux';
 import Statistics from './Statistics';
@@ -8,8 +9,8 @@ const PageReport = ({ report }) => {
   }
 
   return (
-    <div>
-      Report For: {report.id}
+    <div className="page-report">
+      <h1 className="ui center aligned header">Report For: {report.id}</h1>
       <Statistics report={report} />
     </div>
   );
