@@ -6,7 +6,7 @@ const PageReport = ({ report }) => {
     return <div>Enter a URL to get started</div>;
   }
 
-  return <div>{report.id}</div>;
+  return <div>Report For: {report.id}</div>;
 };
 
 const mapStateToProps = state => {
