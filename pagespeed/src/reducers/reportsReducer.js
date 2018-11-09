@@ -1,7 +1,6 @@
 const reportsReducer = (state = {}, action) => {
-  state.name = 'me';
-
-  return state;
+  console.log(action);
+  return 1;
 };
 
 export default reportsReducer;
