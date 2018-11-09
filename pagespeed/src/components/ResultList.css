@@ -1,3 +1,11 @@
 .ui.steps .step::after {
   display: none !important;
 }
+
+.ui.steps .step {
+  flex-wrap: nowrap !important;
+}
+
+.ui.steps .step .icon {
+  min-width: 35px !important;
+}

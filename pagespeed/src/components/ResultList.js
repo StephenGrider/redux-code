@@ -23,8 +23,11 @@ class ResultList extends React.Component {
     );
 
     return results.map(result => {
+      const iconName = result.ruleImpact ? 'yellow exclamation' : 'green check';
+
       return (
         <div className="active step" key={result.localizedRuleName}>
+          <i className={`icon ${iconName}`} />
           <div className="content">
             <h3>{result.localizedRuleName}</h3>
             <p>{this.renderSummary(result)}</p>
