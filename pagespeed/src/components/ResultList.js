@@ -2,7 +2,18 @@ import React from 'react';
 
 class ResultList extends React.Component {
   renderSummary(result) {
-    console.log(result);
+    let format = result.summary.format;
+
+    if (result.summary.args) {
+      result.summary.args.forEach(arg => {
+        format = format
+          .replace(`{{${arg.key}}}`, arg.value)
+          .replace('{{BEGIN_LINK}}', '')
+          .replace('{{END_LINK}}', '');
+      });
+    }
+
+    return format;
   }
 
   render() {
