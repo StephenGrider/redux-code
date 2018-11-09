@@ -6,6 +6,6 @@ export const fetchReport = url => {
       params: { url }
     });
 
-    dispatch({ type: 'FETCH_REPORT', payload: response });
+    dispatch({ type: 'FETCH_REPORT', payload: response.data });
   };
 };
