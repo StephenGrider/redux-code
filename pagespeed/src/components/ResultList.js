@@ -1,3 +1,4 @@
+import './ResultList.css';
 import React from 'react';
 
 class ResultList extends React.Component {
@@ -16,7 +17,7 @@ class ResultList extends React.Component {
     return format;
   }
 
-  render() {
+  renderResults() {
     const results = Object.values(
       this.props.report.formattedResults.ruleResults
     );
@@ -31,6 +32,12 @@ class ResultList extends React.Component {
         </div>
       );
     });
+  }
+
+  render() {
+    return (
+      <div className="ui vertical steps fluid">{this.renderResults()}</div>
+    );
   }
 }
 

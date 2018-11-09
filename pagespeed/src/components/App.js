@@ -4,7 +4,7 @@ import PageReport from './PageReport';
 
 const App = () => {
   return (
-    <div>
+    <div className="ui container">
       <SearchBar />
       <PageReport />
     </div>
