@@ -9,9 +9,13 @@ class SearchBar extends React.Component {
   };
 
   render() {
+    const options = this.props.reports.map(report => {
+      return { label: report.id, value: report.id };
+    });
+
     return (
       <div>
-        <Creatable onCreateOption={this.onCreateOption} />
+        <Creatable options={options} onCreateOption={this.onCreateOption} />
       </div>
     );
   }
