@@ -4,14 +4,6 @@ import Creatable from 'react-select/lib/Creatable';
 import { fetchReport } from '../actions';
 
 class SearchBar extends React.Component {
-  state = { url: '' };
-
-  onFormSubmit = event => {
-    event.preventDefault();
-
-    this.props.fetchReport(this.state.url);
-  };
-
   onCreateOption = url => {
     this.props.fetchReport(url);
   };
@@ -25,7 +17,11 @@ class SearchBar extends React.Component {
   }
 }
 
+const mapStateToProps = state => {
+  return { reports: state.reports };
+};
+
 export default connect(
-  null,
+  mapStateToProps,
   { fetchReport }
 )(SearchBar);
