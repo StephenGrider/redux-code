@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import Creatable from 'react-select/lib/Creatable';
 import { fetchReport } from '../actions';
 
 class SearchBar extends React.Component {
@@ -11,14 +12,15 @@ class SearchBar extends React.Component {
     this.props.fetchReport(this.state.url);
   };
 
+  onCreateOption = url => {
+    this.props.fetchReport(url);
+  };
+
   render() {
     return (
-      <form onSubmit={this.onFormSubmit}>
-        <input
-          value={this.state.url}
-          onChange={e => this.setState({ url: e.target.value })}
-        />
-      </form>
+      <div>
+        <Creatable onCreateOption={this.onCreateOption} />
+      </div>
     );
   }
 }
