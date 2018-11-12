@@ -20,19 +20,25 @@ class SearchBar extends React.Component {
     });
 
     return (
-      <div>
-        <Creatable
-          onChange={this.onChangeOption}
-          options={options}
-          onCreateOption={this.onCreateOption}
-        />
+      <div className="search-bar ui segment">
+        <div className="ui form">
+          <Creatable
+            onChange={this.onChangeOption}
+            options={options}
+            onCreateOption={this.onCreateOption}
+          />
+        </div>
       </div>
     );
   }
 }
 
-const mapStateToProps = state => {
-  return { reports: state.reports.data };
+const mapStateToProps = ({ reports: { data, loading, error } }) => {
+  return {
+    reports: data,
+    loading,
+    error
+  };
 };
 
 export default connect(
