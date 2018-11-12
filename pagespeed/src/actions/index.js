@@ -9,3 +9,10 @@ export const fetchReport = url => {
     dispatch({ type: 'FETCH_REPORT', payload: response.data });
   };
 };
+
+export const selectReport = url => {
+  return {
+    type: 'SELECT_REPORT',
+    payload: url
+  };
+};
