@@ -14,6 +14,16 @@ class SearchBar extends React.Component {
     }
   };
 
+  renderError() {
+    if (this.props.error) {
+      return (
+        <div className="ui error message">
+          <p>{this.props.error}</p>
+        </div>
+      );
+    }
+  }
+
   render() {
     const options = this.props.reports.map(report => {
       return { label: report.id, value: report.id };
@@ -21,12 +31,13 @@ class SearchBar extends React.Component {
 
     return (
       <div className="search-bar ui segment">
-        <div className="ui form">
+        <div className="ui form error">
           <Creatable
             onChange={this.onChangeOption}
             options={options}
             onCreateOption={this.onCreateOption}
           />
+          {this.renderError()}
         </div>
       </div>
     );
