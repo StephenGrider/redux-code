@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import Creatable from 'react-select/lib/Creatable';
-import { fetchReport } from '../actions';
+import { fetchReport, selectReport } from '../actions';
 
 class SearchBar extends React.Component {
   onCreateOption = url => {
@@ -9,7 +9,7 @@ class SearchBar extends React.Component {
   };
 
   onChangeOption = option => {
-    console.log(option);
+    this.props.selectReport(option.value);
   };
 
   render() {
@@ -35,5 +35,5 @@ const mapStateToProps = state => {
 
 export default connect(
   mapStateToProps,
-  { fetchReport }
+  { fetchReport, selectReport }
 )(SearchBar);

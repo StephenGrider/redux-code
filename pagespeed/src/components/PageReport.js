@@ -19,7 +19,10 @@ const PageReport = ({ report }) => {
 };
 
 const mapStateToProps = state => {
-  return { report: state.reports[state.reports.length - 1] };
+  return {
+    reports: state.reports,
+    selectedReport: state.selectedReport
+  };
 };
 
 export default connect(mapStateToProps)(PageReport);
