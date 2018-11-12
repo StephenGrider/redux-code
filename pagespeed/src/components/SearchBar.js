@@ -8,6 +8,10 @@ class SearchBar extends React.Component {
     this.props.fetchReport(url);
   };
 
+  onChangeOption = option => {
+    console.log(option);
+  };
+
   render() {
     const options = this.props.reports.map(report => {
       return { label: report.id, value: report.id };
@@ -15,7 +19,11 @@ class SearchBar extends React.Component {
 
     return (
       <div>
-        <Creatable options={options} onCreateOption={this.onCreateOption} />
+        <Creatable
+          onChange={this.onChangeOption}
+          options={options}
+          onCreateOption={this.onCreateOption}
+        />
       </div>
     );
   }
