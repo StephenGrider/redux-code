@@ -20,7 +20,7 @@ const PageReport = ({ report }) => {
 
 const mapStateToProps = ({ reports, selectedReport }) => {
   return {
-    report: reports.find(report => report.id === selectedReport)
+    report: reports.data.find(report => report.id === selectedReport)
   };
 };
 

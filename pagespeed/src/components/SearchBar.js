@@ -32,7 +32,7 @@ class SearchBar extends React.Component {
 }
 
 const mapStateToProps = state => {
-  return { reports: state.reports };
+  return { reports: state.reports.data };
 };
 
 export default connect(
