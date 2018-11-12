@@ -24,19 +24,32 @@ class SearchBar extends React.Component {
     }
   }
 
-  render() {
+  renderContent() {
+    if (this.props.loading) {
+      return <div>Loading...</div>;
+    }
+
     const options = this.props.reports.map(report => {
       return { label: report.id, value: report.id };
     });
 
     return (
+      <div className="field">
+        <label>Get Page Insights</label>
+        <Creatable
+          onChange={this.onChangeOption}
+          options={options}
+          onCreateOption={this.onCreateOption}
+        />
+      </div>
+    );
+  }
+
+  render() {
+    return (
       <div className="search-bar ui segment">
         <div className="ui form error">
-          <Creatable
-            onChange={this.onChangeOption}
-            options={options}
-            onCreateOption={this.onCreateOption}
-          />
+          {this.renderContent()}
           {this.renderError()}
         </div>
       </div>
