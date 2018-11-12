@@ -9,7 +9,9 @@ class SearchBar extends React.Component {
   };
 
   onChangeOption = option => {
-    this.props.selectReport(option.value);
+    if (option.value) {
+      this.props.selectReport(option.value);
+    }
   };
 
   render() {
