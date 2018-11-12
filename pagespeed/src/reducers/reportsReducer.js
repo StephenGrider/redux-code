@@ -1,24 +1,19 @@
-// Approach #1 - seen in blog posts and tutorials!!!
+import { combineReducers } from 'redux';
 
-const INITIAL_STATE = {
-  data: [],
-  loading: false,
-  error: null
+const dataReducer = (state, action) => {
+  return [];
 };
 
-const reportsReducer = (state = INITIAL_STATE, action) => {
-  switch (action.type) {
-    case 'FETCH_REPORT':
-      return { ...state, loading: true };
-    case 'FETCH_REPORT_SUCCESS':
-      return {
-        ...state,
-        loading: false,
-        data: [...state.data, action.payload]
-      };
-    default:
-      return state;
-  }
+const loadingReducer = (state, action) => {
+  return false;
 };
 
-export default reportsReducer;
+const errorReducer = (state, action) => {
+  return null;
+};
+
+export default combineReducers({
+  data: dataReducer,
+  loading: loadingReducer,
+  error: errorReducer
+});
