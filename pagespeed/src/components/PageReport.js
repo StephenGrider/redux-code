@@ -18,10 +18,9 @@ const PageReport = ({ report }) => {
   );
 };
 
-const mapStateToProps = state => {
+const mapStateToProps = ({ reports, selectedReport }) => {
   return {
-    reports: state.reports,
-    selectedReport: state.selectedReport
+    report: reports.find(report => report.id === selectedReport)
   };
 };
 
