@@ -2,7 +2,7 @@
   "name": "checker",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://stephengrider.github.io/reduxcode",
+  "homepage": "http://stephengrider.github.io/redux-code",
   "dependencies": {
     "axios": "^0.18.0",
     "diff": "^3.5.0",
