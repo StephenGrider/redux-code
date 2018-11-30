@@ -2,7 +2,7 @@
   "name": "checker",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://stephengrider.github.io/redux-code",
+  "homepage": "http://stephengrider.github.io/reduxcode",
   "dependencies": {
     "axios": "^0.18.0",
     "diff": "^3.5.0",
@@ -16,6 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
