@@ -11,10 +11,11 @@ export class LanguageStore extends React.Component {
 
   render() {
     return (
-      <Context.Provider value={{ ...this.state }}>
+      <Context.Provider value={{ ...this.state, onLanguageChange }}>
         {this.props.children}
       </Context.Provider>
     );
   }
 }
+
 export default Context;
