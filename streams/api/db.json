@@ -12,14 +12,13 @@
     },
     {
       "title": "I Created This Stream",
-      "description": "This was made by me!",
+      "description": "This change was made by a PATCH request",
       "userId": "111113427830310115815",
       "id": 3
     },
     {
       "title": "Me Streaming Component Reuse!",
-      "description": "Watch me refactor some components.",
-      "userId": "111113427830310115815",
+      "description": "This stream is about refactoring!!!",
       "id": 4
     }
   ]
