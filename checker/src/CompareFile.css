@@ -1,0 +1,21 @@
+.compare-file {
+  border: 1px solid black;
+}
+
+.code {
+  display: flex;
+}
+
+.compare-file pre {
+  width: 33%;
+  overflow-x: scroll;
+}
+
+span.removed {
+  background-color: lightcoral;
+}
+
+span.added {
+  color: green;
+  background-color: beige;
+}
