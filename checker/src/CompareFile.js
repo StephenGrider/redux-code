@@ -5,8 +5,6 @@ import prettier from 'prettier/standalone';
 import parsers from 'prettier/parser-babylon';
 import * as diff from 'diff';
 
-console.log(diff);
-
 class CompareFile extends React.Component {
   formatContents(contents) {
     try {
