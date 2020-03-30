@@ -2,9 +2,11 @@
   "name": "checker",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://stephengrider.github.io/redux-code",
   "dependencies": {
     "axios": "^0.18.0",
     "diff": "^3.5.0",
+    "gh-pages": "^2.0.1",
     "lodash": "^4.17.11",
     "prettier": "^1.15.3",
     "react": "^16.6.3",
@@ -14,7 +16,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
