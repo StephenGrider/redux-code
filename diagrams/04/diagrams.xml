@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-17T15:46:17.447Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" version="13.2.6" etag="a5jhersju4IpORaI6hm3" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2020-06-17T15:47:39.050Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" version="13.2.6" etag="0Q8hygx13OQD824TZNdf" type="github" pages="20">
   <diagram id="ce8aY0RZ4zH3pJjA8_sy" name="00 - comp">
     <mxGraphModel dx="770" dy="379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -147,6 +147,26 @@
             <mxPoint x="894.9999999999998" y="539.71" as="sourcePoint" />
             <mxPoint x="930" y="540" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="PhqZ0Ez2ktN2XD2-bDDU" name="03 - takeaway">
+    <mxGraphModel dx="613" dy="302" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="_WGNNjeqbCdpceJmf3tL-0" />
+        <mxCell id="_WGNNjeqbCdpceJmf3tL-1" parent="_WGNNjeqbCdpceJmf3tL-0" />
+        <mxCell id="sb_wdyuiQ-1tS5ackSKS-0" value="&lt;b&gt;Class&lt;/b&gt; Components" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=24;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="_WGNNjeqbCdpceJmf3tL-1">
+          <mxGeometry x="785" y="350" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sb_wdyuiQ-1tS5ackSKS-1" value="&lt;b&gt;Function&lt;/b&gt; Components" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=24;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="_WGNNjeqbCdpceJmf3tL-1">
+          <mxGeometry x="975" y="350" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sb_wdyuiQ-1tS5ackSKS-2" value="Have the same capabilities" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=2" vertex="1" parent="_WGNNjeqbCdpceJmf3tL-1">
+          <mxGeometry x="883" y="450" width="155" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sb_wdyuiQ-1tS5ackSKS-3" value="...So...which one should we use?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=2" vertex="1" parent="_WGNNjeqbCdpceJmf3tL-1">
+          <mxGeometry x="883" y="520" width="155" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
