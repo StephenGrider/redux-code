@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-17T16:45:14.279Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="RXCtVRQZiDOZNMf9wkDS" version="13.2.6" type="github" pages="21">
+<mxfile host="app.diagrams.net" modified="2020-06-17T16:55:01.602Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="bfusdTdUX5BOz3cTLUpD" version="13.2.6" type="github" pages="22">
   <diagram id="ce8aY0RZ4zH3pJjA8_sy" name="00 - comp">
     <mxGraphModel dx="770" dy="379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -93,10 +93,13 @@
     </mxGraphModel>
   </diagram>
   <diagram name="02 - now" id="eONOQ2g3aCjo0pGLSdl5">
-    <mxGraphModel dx="884" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="910" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="QWmKDpX9i3atYZ68oSXV-0" />
         <mxCell id="QWmKDpX9i3atYZ68oSXV-1" parent="QWmKDpX9i3atYZ68oSXV-0" />
+        <mxCell id="qFbpSkpTMkdQ-36WnnHC-0" value="Hooks System&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=24;" vertex="1" parent="QWmKDpX9i3atYZ68oSXV-1">
+          <mxGeometry x="1190" y="380" width="180" height="150" as="geometry" />
+        </mxCell>
         <mxCell id="QWmKDpX9i3atYZ68oSXV-3" value="&lt;b&gt;Class&lt;/b&gt; Components" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=24;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="QWmKDpX9i3atYZ68oSXV-1" vertex="1">
           <mxGeometry x="470" y="415" width="160" height="80" as="geometry" />
         </mxCell>
@@ -118,14 +121,14 @@
         <mxCell id="vNbhcvoCyifDrH3o2Qfo-0" value="Can produce JSX to show content to the user" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=18;fontStyle=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="QWmKDpX9i3atYZ68oSXV-1" vertex="1">
           <mxGeometry x="930" y="330" width="225" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vNbhcvoCyifDrH3o2Qfo-1" value="Can use Hooks to run code at specific points in time" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=18;fontStyle=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="QWmKDpX9i3atYZ68oSXV-1" vertex="1">
+        <mxCell id="vNbhcvoCyifDrH3o2Qfo-1" value="Can use &lt;b&gt;Hooks&lt;/b&gt; to run code at specific points in time" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=18;fontStyle=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="QWmKDpX9i3atYZ68oSXV-1" vertex="1">
           <mxGeometry x="930" y="415" width="225" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vNbhcvoCyifDrH3o2Qfo-2" value="Can use Hooks to access state system and update content on screen" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=18;fontStyle=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="QWmKDpX9i3atYZ68oSXV-1" vertex="1">
+        <mxCell id="vNbhcvoCyifDrH3o2Qfo-2" value="Can use &lt;b&gt;Hooks&lt;/b&gt; to access state system and update content on screen" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=18;fontStyle=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="QWmKDpX9i3atYZ68oSXV-1" vertex="1">
           <mxGeometry x="930" y="500" width="225" height="80" as="geometry" />
         </mxCell>
         <mxCell id="vNbhcvoCyifDrH3o2Qfo-3" value="&lt;b&gt;Function&lt;/b&gt; Components" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=24;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="QWmKDpX9i3atYZ68oSXV-1" vertex="1">
-          <mxGeometry x="1190" y="415" width="160" height="80" as="geometry" />
+          <mxGeometry x="1200" y="440" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="vNbhcvoCyifDrH3o2Qfo-5" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=1;fontSize=18;rotation=-180;" parent="QWmKDpX9i3atYZ68oSXV-1" vertex="1">
           <mxGeometry x="1160" y="330" width="30" height="250" as="geometry" />
@@ -187,6 +190,57 @@
         </mxCell>
         <mxCell id="Lijda1O8VlThPh4TVleF-3" value="Companies with &lt;b&gt;&lt;i&gt;newer&lt;/i&gt;&amp;nbsp;&lt;i&gt;projects&lt;/i&gt;&lt;/b&gt;&amp;nbsp;may be using Class-based &lt;b&gt;&lt;i&gt;or&amp;nbsp;&amp;nbsp;&lt;/i&gt;&lt;/b&gt;Function-based components" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="v58d6Tz8MxOctBXqyIZ4-1" vertex="1">
           <mxGeometry x="800.5" y="560" width="320" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="skN9dtbN_XQGwm4YrOG7" name="05 - path">
+    <mxGraphModel dx="556" dy="274" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0xT48gDV2PERc94EejJZ-0" />
+        <mxCell id="0xT48gDV2PERc94EejJZ-1" parent="0xT48gDV2PERc94EejJZ-0" />
+        <mxCell id="ViNvkPln5j0T95sLqOdb-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=24;" edge="1" parent="0xT48gDV2PERc94EejJZ-1" source="ViNvkPln5j0T95sLqOdb-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ViNvkPln5j0T95sLqOdb-0" value="Really Hard" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=24;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="0xT48gDV2PERc94EejJZ-1">
+          <mxGeometry x="700" y="390" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ViNvkPln5j0T95sLqOdb-1" value="Much Easier" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=24;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="0xT48gDV2PERc94EejJZ-1">
+          <mxGeometry x="700" y="500" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ViNvkPln5j0T95sLqOdb-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" parent="0xT48gDV2PERc94EejJZ-1" source="ViNvkPln5j0T95sLqOdb-3" target="ViNvkPln5j0T95sLqOdb-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ViNvkPln5j0T95sLqOdb-3" value="Learn Hooks" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;" vertex="1" parent="0xT48gDV2PERc94EejJZ-1">
+          <mxGeometry x="830" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ViNvkPln5j0T95sLqOdb-4" value="Learn Redux" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;" vertex="1" parent="0xT48gDV2PERc94EejJZ-1">
+          <mxGeometry x="980" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ViNvkPln5j0T95sLqOdb-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=24;" edge="1" parent="0xT48gDV2PERc94EejJZ-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="540" as="targetPoint" />
+            <mxPoint x="800" y="540" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ViNvkPln5j0T95sLqOdb-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" parent="0xT48gDV2PERc94EejJZ-1" source="ViNvkPln5j0T95sLqOdb-8" target="ViNvkPln5j0T95sLqOdb-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ViNvkPln5j0T95sLqOdb-8" value="Learn Class Components" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;" vertex="1" parent="0xT48gDV2PERc94EejJZ-1">
+          <mxGeometry x="830" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ViNvkPln5j0T95sLqOdb-9" value="Learn Hooks" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;" vertex="1" parent="0xT48gDV2PERc94EejJZ-1">
+          <mxGeometry x="980" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ViNvkPln5j0T95sLqOdb-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" parent="0xT48gDV2PERc94EejJZ-1" target="ViNvkPln5j0T95sLqOdb-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="540" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ViNvkPln5j0T95sLqOdb-11" value="Learn Redux" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;" vertex="1" parent="0xT48gDV2PERc94EejJZ-1">
+          <mxGeometry x="1130" y="510" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
