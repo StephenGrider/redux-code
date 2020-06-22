@@ -1,1 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2020-06-22T16:39:02.188Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" version="13.3.0" etag="cAbH7Bc7H9j5vSGdekNO" type="github"><diagram id="X2txt9xWtzmHOwKiG19y">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-06-22T16:43:07.994Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="zZQZHRThj4vJ6ZZj51Zz" version="13.3.0" type="github" pages="2">
+  <diagram id="X2txt9xWtzmHOwKiG19y" name="01 - mock">
+    <mxGraphModel dx="1036" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-uQ1WT1Tk8hT50v0npia-1" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="180" width="550" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="-uQ1WT1Tk8hT50v0npia-2" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="-uQ1WT1Tk8hT50v0npia-1">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-uQ1WT1Tk8hT50v0npia-3" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="-uQ1WT1Tk8hT50v0npia-1">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-uQ1WT1Tk8hT50v0npia-4" value="&amp;nbsp; &amp;gt;&amp;nbsp; What is React?" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="-uQ1WT1Tk8hT50v0npia-1">
+          <mxGeometry x="30" y="130" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-uQ1WT1Tk8hT50v0npia-5" value="&amp;nbsp; &amp;gt;&amp;nbsp; How do we show content with React?" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="-uQ1WT1Tk8hT50v0npia-1">
+          <mxGeometry x="30" y="170" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-uQ1WT1Tk8hT50v0npia-6" value="&amp;nbsp; &amp;gt;&amp;nbsp; Why is React useful for engineers?" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="-uQ1WT1Tk8hT50v0npia-1">
+          <mxGeometry x="30" y="210" width="300" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="02 - mock" id="awSHhTHrl13otkBcK2rJ">
+    <mxGraphModel dx="770" dy="379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="7FmeAl3M9rQzZqt5at2T-0" />
+        <mxCell id="7FmeAl3M9rQzZqt5at2T-1" parent="7FmeAl3M9rQzZqt5at2T-0" />
+        <mxCell id="7FmeAl3M9rQzZqt5at2T-2" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;" vertex="1" parent="7FmeAl3M9rQzZqt5at2T-1">
+          <mxGeometry x="460" y="180" width="550" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="7FmeAl3M9rQzZqt5at2T-3" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="7FmeAl3M9rQzZqt5at2T-2">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7FmeAl3M9rQzZqt5at2T-4" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="7FmeAl3M9rQzZqt5at2T-2">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7FmeAl3M9rQzZqt5at2T-5" value="&lt;b&gt;&amp;nbsp; V&amp;nbsp; What is React?&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;React is a Javascript front-end library. It is used to show content to users and handle user events.&lt;br&gt;Engineers use React to create reusable&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; components&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="7FmeAl3M9rQzZqt5at2T-2">
+          <mxGeometry x="30" y="130" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7FmeAl3M9rQzZqt5at2T-6" value="&amp;nbsp; &amp;gt;&amp;nbsp; How do we show content with React?" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="7FmeAl3M9rQzZqt5at2T-2">
+          <mxGeometry x="30" y="260" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7FmeAl3M9rQzZqt5at2T-7" value="&amp;nbsp; &amp;gt;&amp;nbsp; Why is React useful for engineers?" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="7FmeAl3M9rQzZqt5at2T-2">
+          <mxGeometry x="30" y="300" width="300" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
