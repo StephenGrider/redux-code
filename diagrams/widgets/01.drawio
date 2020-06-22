@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-22T16:46:51.403Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="TK24IIoZYuZPou6CyZG_" version="13.3.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-06-22T16:48:53.184Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="rBGwkXhZKmHAW1TPSbZZ" version="13.3.0" type="github" pages="6">
   <diagram id="Xs8MQ4heo64HYCRX1-q9" name="03 - hooks">
     <mxGraphModel dx="613" dy="302" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -88,6 +88,50 @@
         </mxCell>
         <mxCell id="Xocx7TQtpYDV8lTPMGsu-11" value="Function that lets you create a &lt;b&gt;&#39;ref&#39;&lt;/b&gt; in a function component" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;align=center;" vertex="1" parent="Xocx7TQtpYDV8lTPMGsu-1">
           <mxGeometry x="710" y="470" width="400" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_iHnUMCZ_KwNqD0kkY2M" name="06 - primitive">
+    <mxGraphModel dx="668" dy="328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="tXBYTmBANUSyTLj4P4F8-0" />
+        <mxCell id="tXBYTmBANUSyTLj4P4F8-1" parent="tXBYTmBANUSyTLj4P4F8-0" />
+        <mxCell id="tXBYTmBANUSyTLj4P4F8-2" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="tXBYTmBANUSyTLj4P4F8-1">
+          <mxGeometry x="565" y="570" width="430" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="tXBYTmBANUSyTLj4P4F8-3" value="useState" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;" vertex="1" parent="tXBYTmBANUSyTLj4P4F8-1">
+          <mxGeometry x="580" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tXBYTmBANUSyTLj4P4F8-4" value="useEffect" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;" vertex="1" parent="tXBYTmBANUSyTLj4P4F8-1">
+          <mxGeometry x="720" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tXBYTmBANUSyTLj4P4F8-5" value="useContext" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;" vertex="1" parent="tXBYTmBANUSyTLj4P4F8-1">
+          <mxGeometry x="860" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tXBYTmBANUSyTLj4P4F8-6" value="useReducer" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;" vertex="1" parent="tXBYTmBANUSyTLj4P4F8-1">
+          <mxGeometry x="580" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tXBYTmBANUSyTLj4P4F8-7" value="useCallback" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;" vertex="1" parent="tXBYTmBANUSyTLj4P4F8-1">
+          <mxGeometry x="720" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tXBYTmBANUSyTLj4P4F8-8" value="useMemo" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;" vertex="1" parent="tXBYTmBANUSyTLj4P4F8-1">
+          <mxGeometry x="860" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tXBYTmBANUSyTLj4P4F8-9" value="useRef" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;" vertex="1" parent="tXBYTmBANUSyTLj4P4F8-1">
+          <mxGeometry x="580" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tXBYTmBANUSyTLj4P4F8-10" value="useImperative Handle" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;" vertex="1" parent="tXBYTmBANUSyTLj4P4F8-1">
+          <mxGeometry x="720" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tXBYTmBANUSyTLj4P4F8-11" value="useLayout Effect" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;" vertex="1" parent="tXBYTmBANUSyTLj4P4F8-1">
+          <mxGeometry x="860" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tXBYTmBANUSyTLj4P4F8-12" value="useDebug Value" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;" vertex="1" parent="tXBYTmBANUSyTLj4P4F8-1">
+          <mxGeometry x="580" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tXBYTmBANUSyTLj4P4F8-13" value="&lt;b style=&quot;font-size: 23px;&quot;&gt;Primitive Hooks&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=23;" vertex="1" parent="tXBYTmBANUSyTLj4P4F8-1">
+          <mxGeometry x="675" y="540" width="210" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
