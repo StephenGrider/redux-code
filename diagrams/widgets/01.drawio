@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-22T16:48:53.184Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="rBGwkXhZKmHAW1TPSbZZ" version="13.3.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-06-22T16:50:46.176Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="7DpVLYfswKDV8Aj2x7Zv" version="13.3.0" type="github" pages="7">
   <diagram id="Xs8MQ4heo64HYCRX1-q9" name="03 - hooks">
     <mxGraphModel dx="613" dy="302" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -132,6 +132,73 @@
         </mxCell>
         <mxCell id="tXBYTmBANUSyTLj4P4F8-13" value="&lt;b style=&quot;font-size: 23px;&quot;&gt;Primitive Hooks&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=23;" vertex="1" parent="tXBYTmBANUSyTLj4P4F8-1">
           <mxGeometry x="675" y="540" width="210" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="07 - custom" id="LUzsqtRzk_zkEjjoWkA1">
+    <mxGraphModel dx="699" dy="344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="PETL4pHNEPdp8-49zuH2-0" />
+        <mxCell id="PETL4pHNEPdp8-49zuH2-1" parent="PETL4pHNEPdp8-49zuH2-0" />
+        <mxCell id="PETL4pHNEPdp8-49zuH2-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1;fontSize=23;" edge="1" parent="PETL4pHNEPdp8-49zuH2-1" source="PETL4pHNEPdp8-49zuH2-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1030" y="714.6842105263158" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PETL4pHNEPdp8-49zuH2-2" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PETL4pHNEPdp8-49zuH2-1">
+          <mxGeometry x="565" y="570" width="430" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="PETL4pHNEPdp8-49zuH2-3" value="useState" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;" vertex="1" parent="PETL4pHNEPdp8-49zuH2-1">
+          <mxGeometry x="580" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PETL4pHNEPdp8-49zuH2-4" value="useEffect" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;" vertex="1" parent="PETL4pHNEPdp8-49zuH2-1">
+          <mxGeometry x="720" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PETL4pHNEPdp8-49zuH2-5" value="useContext" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;" vertex="1" parent="PETL4pHNEPdp8-49zuH2-1">
+          <mxGeometry x="860" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PETL4pHNEPdp8-49zuH2-6" value="useReducer" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;" vertex="1" parent="PETL4pHNEPdp8-49zuH2-1">
+          <mxGeometry x="580" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PETL4pHNEPdp8-49zuH2-7" value="useCallback" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;" vertex="1" parent="PETL4pHNEPdp8-49zuH2-1">
+          <mxGeometry x="720" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PETL4pHNEPdp8-49zuH2-8" value="useMemo" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;" vertex="1" parent="PETL4pHNEPdp8-49zuH2-1">
+          <mxGeometry x="860" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PETL4pHNEPdp8-49zuH2-9" value="useRef" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;" vertex="1" parent="PETL4pHNEPdp8-49zuH2-1">
+          <mxGeometry x="580" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PETL4pHNEPdp8-49zuH2-10" value="useImperative Handle" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;" vertex="1" parent="PETL4pHNEPdp8-49zuH2-1">
+          <mxGeometry x="720" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PETL4pHNEPdp8-49zuH2-11" value="useLayout Effect" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;" vertex="1" parent="PETL4pHNEPdp8-49zuH2-1">
+          <mxGeometry x="860" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PETL4pHNEPdp8-49zuH2-12" value="useDebug Value" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;" vertex="1" parent="PETL4pHNEPdp8-49zuH2-1">
+          <mxGeometry x="580" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PETL4pHNEPdp8-49zuH2-13" value="&lt;b style=&quot;font-size: 23px;&quot;&gt;Primitive Hooks&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=23;" vertex="1" parent="PETL4pHNEPdp8-49zuH2-1">
+          <mxGeometry x="675" y="540" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PETL4pHNEPdp8-49zuH2-18" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PETL4pHNEPdp8-49zuH2-1">
+          <mxGeometry x="1030" y="630" width="210" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="PETL4pHNEPdp8-49zuH2-19" value="&lt;b style=&quot;font-size: 23px&quot;&gt;Custom Hook&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=23;" vertex="1" parent="PETL4pHNEPdp8-49zuH2-1">
+          <mxGeometry x="1020" y="600" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PETL4pHNEPdp8-49zuH2-20" value="useTranslate" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="PETL4pHNEPdp8-49zuH2-1">
+          <mxGeometry x="1045" y="650" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PETL4pHNEPdp8-49zuH2-21" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="PETL4pHNEPdp8-49zuH2-1">
+          <mxGeometry x="1045" y="690" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="PETL4pHNEPdp8-49zuH2-22" value="useState" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;" vertex="1" parent="PETL4pHNEPdp8-49zuH2-1">
+          <mxGeometry x="1077.5" y="701.5" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PETL4pHNEPdp8-49zuH2-24" value="useEffect" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;" vertex="1" parent="PETL4pHNEPdp8-49zuH2-1">
+          <mxGeometry x="1077.5" y="747" width="115" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
