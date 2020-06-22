@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-22T21:19:22.812Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="66OqQEv0fsw6gcFqRU_I" version="13.3.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-06-22T21:20:54.961Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="noMKoRlgvKc3mshbqVRm" version="13.3.0" type="github" pages="6">
   <diagram id="h4KtKgRzYph5OhGiSQl3" name="01 - full">
     <mxGraphModel dx="1036" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -266,6 +266,46 @@
         </mxCell>
         <mxCell id="l5TD7c9TbBMUSaN7oBGO-8" value="&amp;nbsp;div.ui.selection" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fontColor=#000000;align=left;" vertex="1" parent="l5TD7c9TbBMUSaN7oBGO-1">
           <mxGeometry x="560" y="440" width="260" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="06 - ref" id="zz_Ka2PePQTm312L-94T">
+    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="YPQyTHNSfD8Q9DfAZzBo-0" />
+        <mxCell id="YPQyTHNSfD8Q9DfAZzBo-1" parent="YPQyTHNSfD8Q9DfAZzBo-0" />
+        <mxCell id="YPQyTHNSfD8Q9DfAZzBo-2" value="&amp;nbsp;html" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fontColor=#000000;align=left;" vertex="1" parent="YPQyTHNSfD8Q9DfAZzBo-1">
+          <mxGeometry x="440" y="140" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YPQyTHNSfD8Q9DfAZzBo-3" value="&amp;nbsp;body" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fontColor=#000000;align=left;" vertex="1" parent="YPQyTHNSfD8Q9DfAZzBo-1">
+          <mxGeometry x="460" y="200" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YPQyTHNSfD8Q9DfAZzBo-4" value="&amp;nbsp;div" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fontColor=#000000;align=left;" vertex="1" parent="YPQyTHNSfD8Q9DfAZzBo-1">
+          <mxGeometry x="490" y="260" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YPQyTHNSfD8Q9DfAZzBo-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=23;fontColor=#000000;strokeWidth=3;" edge="1" parent="YPQyTHNSfD8Q9DfAZzBo-1" source="YPQyTHNSfD8Q9DfAZzBo-5" target="YPQyTHNSfD8Q9DfAZzBo-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="350" />
+              <mxPoint x="900" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YPQyTHNSfD8Q9DfAZzBo-5" value="&amp;nbsp;Dropdown" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="YPQyTHNSfD8Q9DfAZzBo-1">
+          <mxGeometry x="520" y="320" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YPQyTHNSfD8Q9DfAZzBo-6" value="&amp;nbsp;div.ui.form" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fontColor=#000000;align=left;" vertex="1" parent="YPQyTHNSfD8Q9DfAZzBo-1">
+          <mxGeometry x="540" y="380" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YPQyTHNSfD8Q9DfAZzBo-7" value="&amp;nbsp;div.ui.selection" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fontColor=#000000;align=left;" vertex="1" parent="YPQyTHNSfD8Q9DfAZzBo-1">
+          <mxGeometry x="560" y="440" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YPQyTHNSfD8Q9DfAZzBo-8" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=23;fontColor=#000000;align=left;rotation=-180;strokeWidth=3;" vertex="1" parent="YPQyTHNSfD8Q9DfAZzBo-1">
+          <mxGeometry x="830" y="380" width="30" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YPQyTHNSfD8Q9DfAZzBo-10" value="Components can only easily set up event listeners on elements they render" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;fontColor=#000000;" vertex="1" parent="YPQyTHNSfD8Q9DfAZzBo-1">
+          <mxGeometry x="910" y="340" width="230" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
