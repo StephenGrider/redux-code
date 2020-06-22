@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-22T18:52:30.374Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="zchJkW60g55Ysrp_Vl9a" version="13.3.0" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2020-06-22T18:52:52.563Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="bihf5ZWiTuXsTX2dF7u-" version="13.3.0" type="github" pages="15">
   <diagram id="Xs8MQ4heo64HYCRX1-q9" name="03 - hooks">
     <mxGraphModel dx="613" dy="302" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -391,14 +391,6 @@
         <mxCell id="Xocx7TQtpYDV8lTPMGsu-11" value="Function that lets you create a &lt;b&gt;&#39;ref&#39;&lt;/b&gt; in a function component" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;align=center;" vertex="1" parent="Xocx7TQtpYDV8lTPMGsu-1">
           <mxGeometry x="710" y="470" width="400" height="50" as="geometry" />
         </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="X89zmB9ZlnWx_3mTBAiU" name="15 - state">
-    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
-      <root>
-        <mxCell id="cS-67VGBhfNxerv4aBiD-0" />
-        <mxCell id="cS-67VGBhfNxerv4aBiD-1" parent="cS-67VGBhfNxerv4aBiD-0" />
       </root>
     </mxGraphModel>
   </diagram>
