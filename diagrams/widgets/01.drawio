@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-22T17:03:07.464Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="6a6oBDgIJPDE3eyqKJgg" version="13.3.0" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2020-06-22T17:04:19.084Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="uC6nk7s2gz2BUe38-9X5" version="13.3.0" type="github" pages="10">
   <diagram id="Xs8MQ4heo64HYCRX1-q9" name="03 - hooks">
     <mxGraphModel dx="613" dy="302" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -315,6 +315,29 @@
         </mxCell>
         <mxCell id="Qk2BpvY2CdCW3mAHljEt-5" value="&lt;span style=&quot;font-weight: normal&quot;&gt;{ &lt;br&gt;&amp;nbsp; &lt;/span&gt;title&lt;span style=&quot;font-weight: normal&quot;&gt;: &#39;Why is React useful...&#39;,&lt;br&gt;&amp;nbsp; &lt;/span&gt;content&lt;span style=&quot;font-weight: normal&quot;&gt;: &#39;Engineers like React...&#39;&lt;br&gt;}&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=15;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="sbZWdnFzj0f_-SOEwZNb-1">
           <mxGeometry x="420" y="400" width="240" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="10 - state" id="DofYChhraYmceSZVvc5E">
+    <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="yIJc1pgKyLIH8nqSVqXh-0" />
+        <mxCell id="yIJc1pgKyLIH8nqSVqXh-1" parent="yIJc1pgKyLIH8nqSVqXh-0" />
+        <mxCell id="yIJc1pgKyLIH8nqSVqXh-2" value="&lt;br&gt;&lt;br&gt;&lt;b&gt;Accordion&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=23;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="yIJc1pgKyLIH8nqSVqXh-1">
+          <mxGeometry x="650" y="390" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yIJc1pgKyLIH8nqSVqXh-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=1;fontSize=23;" edge="1" parent="yIJc1pgKyLIH8nqSVqXh-1" source="yIJc1pgKyLIH8nqSVqXh-4" target="yIJc1pgKyLIH8nqSVqXh-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yIJc1pgKyLIH8nqSVqXh-4" value="App&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=23;align=center;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="yIJc1pgKyLIH8nqSVqXh-1">
+          <mxGeometry x="650" y="220" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yIJc1pgKyLIH8nqSVqXh-6" value="state" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=2" vertex="1" parent="yIJc1pgKyLIH8nqSVqXh-1">
+          <mxGeometry x="450" y="190" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yIJc1pgKyLIH8nqSVqXh-7" value="activeIndex" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="yIJc1pgKyLIH8nqSVqXh-1">
+          <mxGeometry x="480" y="330" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
