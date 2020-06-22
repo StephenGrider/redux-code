@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-22T16:51:36.248Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="mgpUvTu7mPj26Mm51Vnv" version="13.3.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-06-22T16:58:28.526Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="9H78Qj6lstYBjk3UCCO5" version="13.3.0" type="github" pages="8">
   <diagram id="Xs8MQ4heo64HYCRX1-q9" name="03 - hooks">
     <mxGraphModel dx="613" dy="302" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -254,6 +254,23 @@
         </mxCell>
         <mxCell id="7FmeAl3M9rQzZqt5at2T-7" value="&amp;nbsp; &amp;gt;&amp;nbsp; Why is React useful for engineers?" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="7FmeAl3M9rQzZqt5at2T-2">
           <mxGeometry x="30" y="300" width="300" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Lt0QfNCtppPKwfxQBDog" name="08 - state">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="L2yjmUAzMqp82lK3GQU_-0" />
+        <mxCell id="L2yjmUAzMqp82lK3GQU_-1" parent="L2yjmUAzMqp82lK3GQU_-0" />
+        <mxCell id="L2yjmUAzMqp82lK3GQU_-2" value="Accordion" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=23;align=center;" vertex="1" parent="L2yjmUAzMqp82lK3GQU_-1">
+          <mxGeometry x="650" y="370" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L2yjmUAzMqp82lK3GQU_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=1;fontSize=23;" edge="1" parent="L2yjmUAzMqp82lK3GQU_-1" source="L2yjmUAzMqp82lK3GQU_-3" target="L2yjmUAzMqp82lK3GQU_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L2yjmUAzMqp82lK3GQU_-3" value="App" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=23;align=center;" vertex="1" parent="L2yjmUAzMqp82lK3GQU_-1">
+          <mxGeometry x="650" y="220" width="190" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
