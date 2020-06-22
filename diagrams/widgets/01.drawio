@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-22T16:50:46.176Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="7DpVLYfswKDV8Aj2x7Zv" version="13.3.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-06-22T16:51:36.248Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="mgpUvTu7mPj26Mm51Vnv" version="13.3.0" type="github" pages="7">
   <diagram id="Xs8MQ4heo64HYCRX1-q9" name="03 - hooks">
     <mxGraphModel dx="613" dy="302" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -88,6 +88,9 @@
         </mxCell>
         <mxCell id="Xocx7TQtpYDV8lTPMGsu-11" value="Function that lets you create a &lt;b&gt;&#39;ref&#39;&lt;/b&gt; in a function component" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;align=center;" vertex="1" parent="Xocx7TQtpYDV8lTPMGsu-1">
           <mxGeometry x="710" y="470" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wb88FcBy2I6P0oBgFkj_-0" value="Hooks are a way to write reusable code, instead of more classic techniques like Inheritance" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="Xocx7TQtpYDV8lTPMGsu-1">
+          <mxGeometry x="530" y="560" width="580" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
