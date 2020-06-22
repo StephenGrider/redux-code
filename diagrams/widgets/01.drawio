@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-22T18:05:23.083Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="C7L0l4WFm4H88HkX7aWM" version="13.3.0" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2020-06-22T18:06:13.130Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="xeJ91dBF48F3rql0iBYo" version="13.3.0" type="github" pages="13">
   <diagram id="Xs8MQ4heo64HYCRX1-q9" name="03 - hooks">
     <mxGraphModel dx="613" dy="302" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -46,51 +46,6 @@
             <mxPoint x="620" y="380" as="sourcePoint" />
             <mxPoint x="720" y="460" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="GEvmF427H7pBcRBxRWRG" name="05 - hooks">
-    <mxGraphModel dx="699" dy="344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
-      <root>
-        <mxCell id="Xocx7TQtpYDV8lTPMGsu-0" />
-        <mxCell id="Xocx7TQtpYDV8lTPMGsu-1" parent="Xocx7TQtpYDV8lTPMGsu-0" />
-        <mxCell id="Xocx7TQtpYDV8lTPMGsu-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1;fontSize=17;" edge="1" parent="Xocx7TQtpYDV8lTPMGsu-1" source="Xocx7TQtpYDV8lTPMGsu-2" target="Xocx7TQtpYDV8lTPMGsu-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Xocx7TQtpYDV8lTPMGsu-2" value="useState" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=27;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Xocx7TQtpYDV8lTPMGsu-1">
-          <mxGeometry x="530" y="330" width="160" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Xocx7TQtpYDV8lTPMGsu-3" value="Hooks System" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=27;fontStyle=1" vertex="1" parent="Xocx7TQtpYDV8lTPMGsu-1">
-          <mxGeometry x="740" y="300" width="200" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="Xocx7TQtpYDV8lTPMGsu-4" value="useEffect" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=27;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Xocx7TQtpYDV8lTPMGsu-1">
-          <mxGeometry x="530" y="400" width="160" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Xocx7TQtpYDV8lTPMGsu-5" value="useRef" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=27;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Xocx7TQtpYDV8lTPMGsu-1">
-          <mxGeometry x="530" y="470" width="160" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Xocx7TQtpYDV8lTPMGsu-6" value="Function that lets you use &lt;b&gt;state&lt;/b&gt; in a functional component" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;align=center;" vertex="1" parent="Xocx7TQtpYDV8lTPMGsu-1">
-          <mxGeometry x="710" y="330" width="400" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Xocx7TQtpYDV8lTPMGsu-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1;fontSize=17;" edge="1" parent="Xocx7TQtpYDV8lTPMGsu-1" target="Xocx7TQtpYDV8lTPMGsu-9">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="690" y="425" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Xocx7TQtpYDV8lTPMGsu-9" value="Function that lets you use &lt;i&gt;something like&lt;/i&gt;&amp;nbsp;&lt;b&gt;lifecycle methods&lt;/b&gt; in a functional component" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;align=center;" vertex="1" parent="Xocx7TQtpYDV8lTPMGsu-1">
-          <mxGeometry x="710" y="400" width="400" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Xocx7TQtpYDV8lTPMGsu-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1;fontSize=17;" edge="1" parent="Xocx7TQtpYDV8lTPMGsu-1" target="Xocx7TQtpYDV8lTPMGsu-11">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="690" y="495" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Xocx7TQtpYDV8lTPMGsu-11" value="Function that lets you create a &lt;b&gt;&#39;ref&#39;&lt;/b&gt; in a function component" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;align=center;" vertex="1" parent="Xocx7TQtpYDV8lTPMGsu-1">
-          <mxGeometry x="710" y="470" width="400" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="wb88FcBy2I6P0oBgFkj_-0" value="Hooks are a way to write reusable code, instead of more classic techniques like Inheritance" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="Xocx7TQtpYDV8lTPMGsu-1">
-          <mxGeometry x="530" y="560" width="580" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -393,6 +348,51 @@
         </mxCell>
         <mxCell id="-WW_ng4q_ALl978gMjCg-12" value="Reference value through &#39;this.state&#39;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="-WW_ng4q_ALl978gMjCg-1">
           <mxGeometry x="960" y="484" width="260" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="GEvmF427H7pBcRBxRWRG" name="05 - hooks">
+    <mxGraphModel dx="699" dy="344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="Xocx7TQtpYDV8lTPMGsu-0" />
+        <mxCell id="Xocx7TQtpYDV8lTPMGsu-1" parent="Xocx7TQtpYDV8lTPMGsu-0" />
+        <mxCell id="Xocx7TQtpYDV8lTPMGsu-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1;fontSize=17;" edge="1" parent="Xocx7TQtpYDV8lTPMGsu-1" source="Xocx7TQtpYDV8lTPMGsu-2" target="Xocx7TQtpYDV8lTPMGsu-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xocx7TQtpYDV8lTPMGsu-2" value="useState" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=27;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Xocx7TQtpYDV8lTPMGsu-1">
+          <mxGeometry x="530" y="330" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Xocx7TQtpYDV8lTPMGsu-3" value="Hooks System" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=27;fontStyle=1" vertex="1" parent="Xocx7TQtpYDV8lTPMGsu-1">
+          <mxGeometry x="740" y="300" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Xocx7TQtpYDV8lTPMGsu-4" value="useEffect" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=27;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Xocx7TQtpYDV8lTPMGsu-1">
+          <mxGeometry x="530" y="400" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Xocx7TQtpYDV8lTPMGsu-5" value="useRef" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=27;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Xocx7TQtpYDV8lTPMGsu-1">
+          <mxGeometry x="530" y="470" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Xocx7TQtpYDV8lTPMGsu-6" value="Function that lets you use &lt;b&gt;state&lt;/b&gt; in a functional component" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;align=center;" vertex="1" parent="Xocx7TQtpYDV8lTPMGsu-1">
+          <mxGeometry x="710" y="330" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Xocx7TQtpYDV8lTPMGsu-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1;fontSize=17;" edge="1" parent="Xocx7TQtpYDV8lTPMGsu-1" target="Xocx7TQtpYDV8lTPMGsu-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="425" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xocx7TQtpYDV8lTPMGsu-9" value="Function that lets you use &lt;i&gt;something like&lt;/i&gt;&amp;nbsp;&lt;b&gt;lifecycle methods&lt;/b&gt; in a functional component" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;align=center;" vertex="1" parent="Xocx7TQtpYDV8lTPMGsu-1">
+          <mxGeometry x="710" y="400" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Xocx7TQtpYDV8lTPMGsu-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1;fontSize=17;" edge="1" parent="Xocx7TQtpYDV8lTPMGsu-1" target="Xocx7TQtpYDV8lTPMGsu-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="495" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xocx7TQtpYDV8lTPMGsu-11" value="Function that lets you create a &lt;b&gt;&#39;ref&#39;&lt;/b&gt; in a function component" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;align=center;" vertex="1" parent="Xocx7TQtpYDV8lTPMGsu-1">
+          <mxGeometry x="710" y="470" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wb88FcBy2I6P0oBgFkj_-0" value="Hooks are a way to write reusable code, instead of more classic techniques like Inheritance" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="Xocx7TQtpYDV8lTPMGsu-1">
+          <mxGeometry x="530" y="560" width="580" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
