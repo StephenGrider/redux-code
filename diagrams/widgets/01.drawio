@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-22T16:58:28.526Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="9H78Qj6lstYBjk3UCCO5" version="13.3.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2020-06-22T17:03:07.464Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="6a6oBDgIJPDE3eyqKJgg" version="13.3.0" type="github" pages="9">
   <diagram id="Xs8MQ4heo64HYCRX1-q9" name="03 - hooks">
     <mxGraphModel dx="613" dy="302" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -258,19 +258,63 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="Lt0QfNCtppPKwfxQBDog" name="08 - state">
+  <diagram id="Lt0QfNCtppPKwfxQBDog" name="08 - props">
     <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="L2yjmUAzMqp82lK3GQU_-0" />
         <mxCell id="L2yjmUAzMqp82lK3GQU_-1" parent="L2yjmUAzMqp82lK3GQU_-0" />
-        <mxCell id="L2yjmUAzMqp82lK3GQU_-2" value="Accordion" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=23;align=center;" vertex="1" parent="L2yjmUAzMqp82lK3GQU_-1">
-          <mxGeometry x="650" y="370" width="190" height="80" as="geometry" />
+        <mxCell id="L2yjmUAzMqp82lK3GQU_-2" value="&lt;br&gt;&lt;br&gt;&lt;b&gt;Accordion&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=23;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="L2yjmUAzMqp82lK3GQU_-1">
+          <mxGeometry x="650" y="390" width="190" height="90" as="geometry" />
         </mxCell>
         <mxCell id="L2yjmUAzMqp82lK3GQU_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=1;fontSize=23;" edge="1" parent="L2yjmUAzMqp82lK3GQU_-1" source="L2yjmUAzMqp82lK3GQU_-3" target="L2yjmUAzMqp82lK3GQU_-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="L2yjmUAzMqp82lK3GQU_-3" value="App" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=23;align=center;" vertex="1" parent="L2yjmUAzMqp82lK3GQU_-1">
+        <mxCell id="L2yjmUAzMqp82lK3GQU_-3" value="App&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=23;align=center;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="L2yjmUAzMqp82lK3GQU_-1">
           <mxGeometry x="650" y="220" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="62lOe2GNONvVcp_pzKrQ-0" value="items" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="L2yjmUAzMqp82lK3GQU_-1">
+          <mxGeometry x="700" y="270" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="62lOe2GNONvVcp_pzKrQ-4" value="Props" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=2" vertex="1" parent="L2yjmUAzMqp82lK3GQU_-1">
+          <mxGeometry x="410" y="190" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="09 - props" id="NfH0RulourmTtb6go_yR">
+    <mxGraphModel dx="770" dy="379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="sbZWdnFzj0f_-SOEwZNb-0" />
+        <mxCell id="sbZWdnFzj0f_-SOEwZNb-1" parent="sbZWdnFzj0f_-SOEwZNb-0" />
+        <mxCell id="1qJgRPCny-njWIL1g2WB-0" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;" vertex="1" parent="sbZWdnFzj0f_-SOEwZNb-1">
+          <mxGeometry x="720" y="130" width="550" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="1qJgRPCny-njWIL1g2WB-1" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="1qJgRPCny-njWIL1g2WB-0">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1qJgRPCny-njWIL1g2WB-2" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="1qJgRPCny-njWIL1g2WB-0">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1qJgRPCny-njWIL1g2WB-3" value="&lt;b&gt;&amp;nbsp; V&amp;nbsp; What is React?&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;React is a Javascript front-end library. It is used to show content to users and handle user events.&lt;br&gt;Engineers use React to create reusable&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; components&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1qJgRPCny-njWIL1g2WB-0">
+          <mxGeometry x="30" y="130" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1qJgRPCny-njWIL1g2WB-4" value="&amp;nbsp; &amp;gt;&amp;nbsp; How do we show content with React?" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1qJgRPCny-njWIL1g2WB-0">
+          <mxGeometry x="30" y="260" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1qJgRPCny-njWIL1g2WB-5" value="&amp;nbsp; &amp;gt;&amp;nbsp; Why is React useful for engineers?" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1qJgRPCny-njWIL1g2WB-0">
+          <mxGeometry x="30" y="300" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk2BpvY2CdCW3mAHljEt-0" value="items" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="sbZWdnFzj0f_-SOEwZNb-1">
+          <mxGeometry x="420" y="210" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk2BpvY2CdCW3mAHljEt-1" value="&lt;span style=&quot;font-weight: normal&quot;&gt;{ &lt;br&gt;&amp;nbsp; &lt;/span&gt;title&lt;span style=&quot;font-weight: normal&quot;&gt;: &#39;What is React?&#39;,&lt;br&gt;&amp;nbsp; &lt;/span&gt;content&lt;span style=&quot;font-weight: normal&quot;&gt;: &#39;React is a Javascript...&#39;&lt;br&gt;}&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=15;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="sbZWdnFzj0f_-SOEwZNb-1">
+          <mxGeometry x="420" y="240" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk2BpvY2CdCW3mAHljEt-4" value="&lt;span style=&quot;font-weight: normal&quot;&gt;{ &lt;br&gt;&amp;nbsp; &lt;/span&gt;title&lt;span style=&quot;font-weight: normal&quot;&gt;: &#39;How do we show...&#39;,&lt;br&gt;&amp;nbsp; &lt;/span&gt;content&lt;span style=&quot;font-weight: normal&quot;&gt;: &#39;To show content...&#39;&lt;br&gt;}&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=15;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="sbZWdnFzj0f_-SOEwZNb-1">
+          <mxGeometry x="420" y="320" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk2BpvY2CdCW3mAHljEt-5" value="&lt;span style=&quot;font-weight: normal&quot;&gt;{ &lt;br&gt;&amp;nbsp; &lt;/span&gt;title&lt;span style=&quot;font-weight: normal&quot;&gt;: &#39;Why is React useful...&#39;,&lt;br&gt;&amp;nbsp; &lt;/span&gt;content&lt;span style=&quot;font-weight: normal&quot;&gt;: &#39;Engineers like React...&#39;&lt;br&gt;}&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=15;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="sbZWdnFzj0f_-SOEwZNb-1">
+          <mxGeometry x="420" y="400" width="240" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
