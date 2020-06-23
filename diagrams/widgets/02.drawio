@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-23T16:33:45.946Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="lOnhabihwaUpKeFFw48F" version="13.3.0" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2020-06-23T16:36:59.599Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="ejoWUyZYbhucEHQBBugG" version="13.3.0" type="github" pages="16">
   <diagram id="h4KtKgRzYph5OhGiSQl3" name="01 - full">
     <mxGraphModel dx="1036" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -617,6 +617,99 @@
         </mxCell>
         <mxCell id="Lx8SbX4yZk6nVt-URAl4-15" value="Run the function &lt;b&gt;immediately after &lt;/b&gt;the component is rendered, &lt;b&gt;only the first time it is rendered &lt;i&gt;and&lt;/i&gt;&amp;nbsp;whenever &#39;value&#39; &lt;i&gt;or&lt;/i&gt;&amp;nbsp;&#39;value2&#39; changes&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;fontColor=#000000;align=center;" vertex="1" parent="Lx8SbX4yZk6nVt-URAl4-1">
           <mxGeometry x="910" y="490" width="630" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3OkIdJiNx5ZX0Cx_bHKD" name="14 - ex">
+    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="_iTMVenCbbLldgMMBNIk-0" />
+        <mxCell id="_iTMVenCbbLldgMMBNIk-1" parent="_iTMVenCbbLldgMMBNIk-0" />
+        <mxCell id="ptbyIIXgSbTEiq33m02V-0" value="useEffect(() =&amp;gt; {})" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="_iTMVenCbbLldgMMBNIk-1">
+          <mxGeometry x="605" y="220" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ptbyIIXgSbTEiq33m02V-1" value="Component shown on the screen for the first time" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="_iTMVenCbbLldgMMBNIk-1">
+          <mxGeometry x="530" y="290" width="470" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ptbyIIXgSbTEiq33m02V-2" value="" style="endArrow=classic;html=1;strokeWidth=1;fontSize=16;fontColor=#000000;" edge="1" parent="_iTMVenCbbLldgMMBNIk-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="290" as="sourcePoint" />
+            <mxPoint x="520" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ptbyIIXgSbTEiq33m02V-5" value="Function called!" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="_iTMVenCbbLldgMMBNIk-1">
+          <mxGeometry x="530" y="360" width="470" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ptbyIIXgSbTEiq33m02V-6" value="State update in the component, forcing it to rerender" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="_iTMVenCbbLldgMMBNIk-1">
+          <mxGeometry x="530" y="430" width="470" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ptbyIIXgSbTEiq33m02V-7" value="Function called!" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="_iTMVenCbbLldgMMBNIk-1">
+          <mxGeometry x="530" y="500" width="470" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="15 - ex" id="fuWSc7WiDyPB0zfJjuwy">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="kkgjYWh2UyZ4ghDgiPDZ-0" />
+        <mxCell id="kkgjYWh2UyZ4ghDgiPDZ-1" parent="kkgjYWh2UyZ4ghDgiPDZ-0" />
+        <mxCell id="kkgjYWh2UyZ4ghDgiPDZ-2" value="useEffect(() =&amp;gt; {}, &lt;b&gt;[&amp;nbsp; &amp;nbsp;]&lt;/b&gt;)" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="kkgjYWh2UyZ4ghDgiPDZ-1">
+          <mxGeometry x="605" y="220" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kkgjYWh2UyZ4ghDgiPDZ-3" value="Component shown on the screen for the first time" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="kkgjYWh2UyZ4ghDgiPDZ-1">
+          <mxGeometry x="530" y="290" width="470" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kkgjYWh2UyZ4ghDgiPDZ-4" value="" style="endArrow=classic;html=1;strokeWidth=1;fontSize=16;fontColor=#000000;" edge="1" parent="kkgjYWh2UyZ4ghDgiPDZ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="290" as="sourcePoint" />
+            <mxPoint x="520" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kkgjYWh2UyZ4ghDgiPDZ-5" value="Function called!" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="kkgjYWh2UyZ4ghDgiPDZ-1">
+          <mxGeometry x="530" y="360" width="470" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kkgjYWh2UyZ4ghDgiPDZ-6" value="State update in the component, forcing it to rerender" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="kkgjYWh2UyZ4ghDgiPDZ-1">
+          <mxGeometry x="530" y="430" width="470" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kkgjYWh2UyZ4ghDgiPDZ-7" value="&lt;b&gt;Function not called!&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="kkgjYWh2UyZ4ghDgiPDZ-1">
+          <mxGeometry x="530" y="500" width="470" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="16 - ex" id="gTG1aXwIrPLDDjKiB_3_">
+    <mxGraphModel dx="1001" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="wve-XhyA6mu0oEtGc0jr-0" />
+        <mxCell id="wve-XhyA6mu0oEtGc0jr-1" parent="wve-XhyA6mu0oEtGc0jr-0" />
+        <mxCell id="wve-XhyA6mu0oEtGc0jr-2" value="useEffect(() =&amp;gt; {}, &lt;b&gt;[value]&lt;/b&gt;)" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="wve-XhyA6mu0oEtGc0jr-1">
+          <mxGeometry x="605" y="220" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wve-XhyA6mu0oEtGc0jr-3" value="Component shown on the screen for the first time" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="wve-XhyA6mu0oEtGc0jr-1">
+          <mxGeometry x="530" y="290" width="470" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wve-XhyA6mu0oEtGc0jr-4" value="" style="endArrow=classic;html=1;strokeWidth=1;fontSize=16;fontColor=#000000;" edge="1" parent="wve-XhyA6mu0oEtGc0jr-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="290" as="sourcePoint" />
+            <mxPoint x="520" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wve-XhyA6mu0oEtGc0jr-5" value="Function called!" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="wve-XhyA6mu0oEtGc0jr-1">
+          <mxGeometry x="530" y="360" width="470" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wve-XhyA6mu0oEtGc0jr-6" value="State update in the component, forcing it to rerender.&amp;nbsp; &#39;Value&#39; is the same it was the last time." style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="wve-XhyA6mu0oEtGc0jr-1">
+          <mxGeometry x="530" y="430" width="470" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wve-XhyA6mu0oEtGc0jr-7" value="&lt;b&gt;Function not called!&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="wve-XhyA6mu0oEtGc0jr-1">
+          <mxGeometry x="530" y="500" width="470" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wve-XhyA6mu0oEtGc0jr-8" value="State update in the component, forcing it to rerender.&amp;nbsp; &#39;Value&#39; is different!" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="wve-XhyA6mu0oEtGc0jr-1">
+          <mxGeometry x="530" y="570" width="470" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wve-XhyA6mu0oEtGc0jr-9" value="Function called!" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="wve-XhyA6mu0oEtGc0jr-1">
+          <mxGeometry x="530" y="640" width="470" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
