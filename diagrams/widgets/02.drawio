@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-23T16:21:23.442Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="ZLC1ts1bLczUcOdCXk5Y" version="13.3.0" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2020-06-23T16:23:06.030Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="nMqnN8PSUClAYXeQjOQ9" version="13.3.0" type="github" pages="12">
   <diagram id="h4KtKgRzYph5OhGiSQl3" name="01 - full">
     <mxGraphModel dx="1036" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -516,7 +516,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="64lU1uxPZDTfUJ-Hfxjs" name="11 - useeffect">
+  <diagram id="64lU1uxPZDTfUJ-Hfxjs" name="11 - lifecycle">
     <mxGraphModel dx="567" dy="279" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="vjjprbzvebpTOUIzQgGP-0" />
@@ -544,6 +544,26 @@
         </mxCell>
         <mxCell id="o9uY6VIXdQgikGkTOoG8-6" value="We run code to add an event listener to the body element to watch for click events that bubble up" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="vjjprbzvebpTOUIzQgGP-1">
           <mxGeometry x="570" y="420" width="370" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ys8UyUnctEl9gmQLE7Cc" name="12 - useeffect">
+    <mxGraphModel dx="477" dy="235" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0R7BuiKvBmTDLBtnlpDc-0" />
+        <mxCell id="0R7BuiKvBmTDLBtnlpDc-1" parent="0R7BuiKvBmTDLBtnlpDc-0" />
+        <mxCell id="0R7BuiKvBmTDLBtnlpDc-2" value="The &#39;useEffect&#39; Hook" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#000000;" vertex="1" parent="0R7BuiKvBmTDLBtnlpDc-1">
+          <mxGeometry x="605" y="150" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0R7BuiKvBmTDLBtnlpDc-3" value="Allows function components to set up lifecycle methods" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;fontColor=#333333;align=center;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;" vertex="1" parent="0R7BuiKvBmTDLBtnlpDc-1">
+          <mxGeometry x="530" y="180" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0R7BuiKvBmTDLBtnlpDc-4" value="Hardest part of useEffect to understand is the &lt;i&gt;second argument&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;fontColor=#333333;align=center;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;" vertex="1" parent="0R7BuiKvBmTDLBtnlpDc-1">
+          <mxGeometry x="530" y="230" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0R7BuiKvBmTDLBtnlpDc-5" value="Second argument controls &lt;i&gt;when our code is ran&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;fontColor=#333333;align=center;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;" vertex="1" parent="0R7BuiKvBmTDLBtnlpDc-1">
+          <mxGeometry x="530" y="280" width="390" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
