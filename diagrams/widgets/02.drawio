@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-23T16:23:06.030Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="nMqnN8PSUClAYXeQjOQ9" version="13.3.0" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2020-06-23T16:33:37.330Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="ZV_tdfyN4jd66pYxVriM" version="13.3.0" type="github" pages="13">
   <diagram id="h4KtKgRzYph5OhGiSQl3" name="01 - full">
     <mxGraphModel dx="1036" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -564,6 +564,59 @@
         </mxCell>
         <mxCell id="0R7BuiKvBmTDLBtnlpDc-5" value="Second argument controls &lt;i&gt;when our code is ran&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;fontColor=#333333;align=center;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;" vertex="1" parent="0R7BuiKvBmTDLBtnlpDc-1">
           <mxGeometry x="530" y="280" width="390" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2F71zRnht3nFXn-zRfaE" name="13 - arg">
+    <mxGraphModel dx="1036" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="Lx8SbX4yZk6nVt-URAl4-0" />
+        <mxCell id="Lx8SbX4yZk6nVt-URAl4-1" parent="Lx8SbX4yZk6nVt-URAl4-0" />
+        <mxCell id="Lx8SbX4yZk6nVt-URAl4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1;fontSize=16;fontColor=#000000;" edge="1" parent="Lx8SbX4yZk6nVt-URAl4-1" source="Lx8SbX4yZk6nVt-URAl4-2" target="Lx8SbX4yZk6nVt-URAl4-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx8SbX4yZk6nVt-URAl4-2" value="useEffect(() =&amp;gt; {})" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Lx8SbX4yZk6nVt-URAl4-1">
+          <mxGeometry x="570" y="180" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx8SbX4yZk6nVt-URAl4-3" value="useEffect(() =&amp;gt; {}, [ ])" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Lx8SbX4yZk6nVt-URAl4-1">
+          <mxGeometry x="570" y="283" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx8SbX4yZk6nVt-URAl4-4" value="useEffect(() =&amp;gt; {}, [value])" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Lx8SbX4yZk6nVt-URAl4-1">
+          <mxGeometry x="570" y="387" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx8SbX4yZk6nVt-URAl4-6" value="useEffect(() =&amp;gt; {}, [value, value2])" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Lx8SbX4yZk6nVt-URAl4-1">
+          <mxGeometry x="570" y="490" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx8SbX4yZk6nVt-URAl4-7" value="Run the function &lt;i&gt;&lt;b&gt;immediately after&lt;/b&gt;&lt;/i&gt;&amp;nbsp;the component is rendered, &lt;i&gt;&lt;b&gt;every time&lt;/b&gt; &lt;/i&gt;it is rendered" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;fontColor=#000000;align=center;" vertex="1" parent="Lx8SbX4yZk6nVt-URAl4-1">
+          <mxGeometry x="910" y="180" width="630" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx8SbX4yZk6nVt-URAl4-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1;fontSize=16;fontColor=#000000;" edge="1" parent="Lx8SbX4yZk6nVt-URAl4-1" target="Lx8SbX4yZk6nVt-URAl4-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="313" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lx8SbX4yZk6nVt-URAl4-10" value="Run the function &lt;b&gt;immediately after &lt;/b&gt;the component is rendered, &lt;b&gt;&lt;i&gt;only the first time&lt;/i&gt; &lt;/b&gt;it is rendered" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;fontColor=#000000;align=center;" vertex="1" parent="Lx8SbX4yZk6nVt-URAl4-1">
+          <mxGeometry x="910" y="283" width="630" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx8SbX4yZk6nVt-URAl4-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1;fontSize=16;fontColor=#000000;" edge="1" parent="Lx8SbX4yZk6nVt-URAl4-1" target="Lx8SbX4yZk6nVt-URAl4-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="416.9999999999999" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lx8SbX4yZk6nVt-URAl4-12" value="Run the function &lt;b&gt;immediately after &lt;/b&gt;the component is rendered, &lt;b&gt;only the first time it is rendered &lt;i&gt;and&lt;/i&gt;&amp;nbsp;whenever the &#39;value&#39; changes&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;fontColor=#000000;align=center;" vertex="1" parent="Lx8SbX4yZk6nVt-URAl4-1">
+          <mxGeometry x="910" y="387" width="630" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx8SbX4yZk6nVt-URAl4-13" value="The second argument to &#39;useEffect&#39; controls how often the function is executed" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Lx8SbX4yZk6nVt-URAl4-1">
+          <mxGeometry x="570" y="90" width="840" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx8SbX4yZk6nVt-URAl4-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1;fontSize=16;fontColor=#000000;" edge="1" parent="Lx8SbX4yZk6nVt-URAl4-1" target="Lx8SbX4yZk6nVt-URAl4-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="519.9999999999999" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lx8SbX4yZk6nVt-URAl4-15" value="Run the function &lt;b&gt;immediately after &lt;/b&gt;the component is rendered, &lt;b&gt;only the first time it is rendered &lt;i&gt;and&lt;/i&gt;&amp;nbsp;whenever &#39;value&#39; &lt;i&gt;or&lt;/i&gt;&amp;nbsp;&#39;value2&#39; changes&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;fontColor=#000000;align=center;" vertex="1" parent="Lx8SbX4yZk6nVt-URAl4-1">
+          <mxGeometry x="910" y="490" width="630" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
