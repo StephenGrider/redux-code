@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-23T16:36:59.599Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="ejoWUyZYbhucEHQBBugG" version="13.3.0" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2020-06-23T16:38:48.225Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="53XBprUHKhgUUbqg51D_" version="13.3.0" type="github" pages="17">
   <diagram id="h4KtKgRzYph5OhGiSQl3" name="01 - full">
     <mxGraphModel dx="1036" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -710,6 +710,50 @@
         </mxCell>
         <mxCell id="wve-XhyA6mu0oEtGc0jr-9" value="Function called!" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="wve-XhyA6mu0oEtGc0jr-1">
           <mxGeometry x="530" y="640" width="470" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="17 - ex" id="X3FC-UwuZFsMKEvS1cyq">
+    <mxGraphModel dx="1155" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="YSfBs35oG5J9ldOroY6b-0" />
+        <mxCell id="YSfBs35oG5J9ldOroY6b-1" parent="YSfBs35oG5J9ldOroY6b-0" />
+        <mxCell id="YSfBs35oG5J9ldOroY6b-2" value="useEffect(() =&amp;gt; {}, &lt;b&gt;[value, value2]&lt;/b&gt;)" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="YSfBs35oG5J9ldOroY6b-1">
+          <mxGeometry x="612.5" y="220" width="405" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YSfBs35oG5J9ldOroY6b-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;fontSize=16;fontColor=#000000;" edge="1" parent="YSfBs35oG5J9ldOroY6b-1" source="YSfBs35oG5J9ldOroY6b-3" target="YSfBs35oG5J9ldOroY6b-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YSfBs35oG5J9ldOroY6b-3" value="Component shown on the screen for the first time" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="YSfBs35oG5J9ldOroY6b-1">
+          <mxGeometry x="530" y="290" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YSfBs35oG5J9ldOroY6b-4" value="" style="endArrow=classic;html=1;strokeWidth=1;fontSize=16;fontColor=#000000;" edge="1" parent="YSfBs35oG5J9ldOroY6b-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="290" as="sourcePoint" />
+            <mxPoint x="520" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YSfBs35oG5J9ldOroY6b-5" value="Function called!" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="YSfBs35oG5J9ldOroY6b-1">
+          <mxGeometry x="530" y="400" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YSfBs35oG5J9ldOroY6b-6" value="State update in the component, forcing it to rerender.&amp;nbsp; &#39;Value&#39; and &#39;value2&#39; are the same they were the last time." style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="YSfBs35oG5J9ldOroY6b-1">
+          <mxGeometry x="790" y="290" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YSfBs35oG5J9ldOroY6b-7" value="&lt;b&gt;Function not called!&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="YSfBs35oG5J9ldOroY6b-1">
+          <mxGeometry x="790" y="400" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YSfBs35oG5J9ldOroY6b-8" value="State update in the component, forcing it to rerender.&amp;nbsp; &#39;Value&#39; is different!" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="YSfBs35oG5J9ldOroY6b-1">
+          <mxGeometry x="530" y="570" width="570" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YSfBs35oG5J9ldOroY6b-9" value="Function called!" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="YSfBs35oG5J9ldOroY6b-1">
+          <mxGeometry x="530" y="640" width="570" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YSfBs35oG5J9ldOroY6b-10" value="State update in the component, forcing it to rerender.&amp;nbsp; &#39;Value2&#39; is different!" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="YSfBs35oG5J9ldOroY6b-1">
+          <mxGeometry x="530" y="710" width="570" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YSfBs35oG5J9ldOroY6b-11" value="Function called!" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="YSfBs35oG5J9ldOroY6b-1">
+          <mxGeometry x="530" y="780" width="570" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
