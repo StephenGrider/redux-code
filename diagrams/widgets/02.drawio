@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-23T16:38:48.225Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="53XBprUHKhgUUbqg51D_" version="13.3.0" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2020-06-23T17:32:31.155Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="S63s6Yc6hrdKEAvFf0YF" version="13.3.0" type="github" pages="15">
   <diagram id="h4KtKgRzYph5OhGiSQl3" name="01 - full">
     <mxGraphModel dx="1036" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -621,139 +621,141 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="3OkIdJiNx5ZX0Cx_bHKD" name="14 - ex">
-    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+  <diagram name="14 - use" id="FKy9ddR7ghVtyveRLLfr">
+    <mxGraphModel dx="969" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
-        <mxCell id="_iTMVenCbbLldgMMBNIk-0" />
-        <mxCell id="_iTMVenCbbLldgMMBNIk-1" parent="_iTMVenCbbLldgMMBNIk-0" />
-        <mxCell id="ptbyIIXgSbTEiq33m02V-0" value="useEffect(() =&amp;gt; {})" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="_iTMVenCbbLldgMMBNIk-1">
-          <mxGeometry x="605" y="220" width="320" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="ptbyIIXgSbTEiq33m02V-1" value="Component shown on the screen for the first time" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="_iTMVenCbbLldgMMBNIk-1">
-          <mxGeometry x="530" y="290" width="470" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ptbyIIXgSbTEiq33m02V-2" value="" style="endArrow=classic;html=1;strokeWidth=1;fontSize=16;fontColor=#000000;" edge="1" parent="_iTMVenCbbLldgMMBNIk-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="290" as="sourcePoint" />
-            <mxPoint x="520" y="560" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ptbyIIXgSbTEiq33m02V-5" value="Function called!" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="_iTMVenCbbLldgMMBNIk-1">
-          <mxGeometry x="530" y="360" width="470" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ptbyIIXgSbTEiq33m02V-6" value="State update in the component, forcing it to rerender" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="_iTMVenCbbLldgMMBNIk-1">
-          <mxGeometry x="530" y="430" width="470" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ptbyIIXgSbTEiq33m02V-7" value="Function called!" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="_iTMVenCbbLldgMMBNIk-1">
-          <mxGeometry x="530" y="500" width="470" height="60" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram name="15 - ex" id="fuWSc7WiDyPB0zfJjuwy">
-    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
-      <root>
-        <mxCell id="kkgjYWh2UyZ4ghDgiPDZ-0" />
-        <mxCell id="kkgjYWh2UyZ4ghDgiPDZ-1" parent="kkgjYWh2UyZ4ghDgiPDZ-0" />
-        <mxCell id="kkgjYWh2UyZ4ghDgiPDZ-2" value="useEffect(() =&amp;gt; {}, &lt;b&gt;[&amp;nbsp; &amp;nbsp;]&lt;/b&gt;)" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="kkgjYWh2UyZ4ghDgiPDZ-1">
-          <mxGeometry x="605" y="220" width="320" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="kkgjYWh2UyZ4ghDgiPDZ-3" value="Component shown on the screen for the first time" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="kkgjYWh2UyZ4ghDgiPDZ-1">
-          <mxGeometry x="530" y="290" width="470" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="kkgjYWh2UyZ4ghDgiPDZ-4" value="" style="endArrow=classic;html=1;strokeWidth=1;fontSize=16;fontColor=#000000;" edge="1" parent="kkgjYWh2UyZ4ghDgiPDZ-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="290" as="sourcePoint" />
-            <mxPoint x="520" y="560" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kkgjYWh2UyZ4ghDgiPDZ-5" value="Function called!" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="kkgjYWh2UyZ4ghDgiPDZ-1">
-          <mxGeometry x="530" y="360" width="470" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="kkgjYWh2UyZ4ghDgiPDZ-6" value="State update in the component, forcing it to rerender" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="kkgjYWh2UyZ4ghDgiPDZ-1">
-          <mxGeometry x="530" y="430" width="470" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="kkgjYWh2UyZ4ghDgiPDZ-7" value="&lt;b&gt;Function not called!&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="kkgjYWh2UyZ4ghDgiPDZ-1">
-          <mxGeometry x="530" y="500" width="470" height="60" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram name="16 - ex" id="gTG1aXwIrPLDDjKiB_3_">
-    <mxGraphModel dx="1001" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
-      <root>
-        <mxCell id="wve-XhyA6mu0oEtGc0jr-0" />
-        <mxCell id="wve-XhyA6mu0oEtGc0jr-1" parent="wve-XhyA6mu0oEtGc0jr-0" />
-        <mxCell id="wve-XhyA6mu0oEtGc0jr-2" value="useEffect(() =&amp;gt; {}, &lt;b&gt;[value]&lt;/b&gt;)" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="wve-XhyA6mu0oEtGc0jr-1">
-          <mxGeometry x="605" y="220" width="320" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="wve-XhyA6mu0oEtGc0jr-3" value="Component shown on the screen for the first time" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="wve-XhyA6mu0oEtGc0jr-1">
-          <mxGeometry x="530" y="290" width="470" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wve-XhyA6mu0oEtGc0jr-4" value="" style="endArrow=classic;html=1;strokeWidth=1;fontSize=16;fontColor=#000000;" edge="1" parent="wve-XhyA6mu0oEtGc0jr-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="290" as="sourcePoint" />
-            <mxPoint x="520" y="700" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="wve-XhyA6mu0oEtGc0jr-5" value="Function called!" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="wve-XhyA6mu0oEtGc0jr-1">
-          <mxGeometry x="530" y="360" width="470" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wve-XhyA6mu0oEtGc0jr-6" value="State update in the component, forcing it to rerender.&amp;nbsp; &#39;Value&#39; is the same it was the last time." style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="wve-XhyA6mu0oEtGc0jr-1">
-          <mxGeometry x="530" y="430" width="470" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wve-XhyA6mu0oEtGc0jr-7" value="&lt;b&gt;Function not called!&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="wve-XhyA6mu0oEtGc0jr-1">
-          <mxGeometry x="530" y="500" width="470" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wve-XhyA6mu0oEtGc0jr-8" value="State update in the component, forcing it to rerender.&amp;nbsp; &#39;Value&#39; is different!" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="wve-XhyA6mu0oEtGc0jr-1">
-          <mxGeometry x="530" y="570" width="470" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wve-XhyA6mu0oEtGc0jr-9" value="Function called!" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="wve-XhyA6mu0oEtGc0jr-1">
-          <mxGeometry x="530" y="640" width="470" height="60" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram name="17 - ex" id="X3FC-UwuZFsMKEvS1cyq">
-    <mxGraphModel dx="1155" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
-      <root>
-        <mxCell id="YSfBs35oG5J9ldOroY6b-0" />
-        <mxCell id="YSfBs35oG5J9ldOroY6b-1" parent="YSfBs35oG5J9ldOroY6b-0" />
-        <mxCell id="YSfBs35oG5J9ldOroY6b-2" value="useEffect(() =&amp;gt; {}, &lt;b&gt;[value, value2]&lt;/b&gt;)" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="YSfBs35oG5J9ldOroY6b-1">
-          <mxGeometry x="612.5" y="220" width="405" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="YSfBs35oG5J9ldOroY6b-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;fontSize=16;fontColor=#000000;" edge="1" parent="YSfBs35oG5J9ldOroY6b-1" source="YSfBs35oG5J9ldOroY6b-3" target="YSfBs35oG5J9ldOroY6b-5">
+        <mxCell id="zqE73G4ePoDWPab-BB4q-0" />
+        <mxCell id="zqE73G4ePoDWPab-BB4q-1" parent="zqE73G4ePoDWPab-BB4q-0" />
+        <mxCell id="zqE73G4ePoDWPab-BB4q-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1;fontSize=16;fontColor=#000000;" edge="1" parent="zqE73G4ePoDWPab-BB4q-1" source="zqE73G4ePoDWPab-BB4q-3" target="zqE73G4ePoDWPab-BB4q-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YSfBs35oG5J9ldOroY6b-3" value="Component shown on the screen for the first time" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="YSfBs35oG5J9ldOroY6b-1">
-          <mxGeometry x="530" y="290" width="250" height="80" as="geometry" />
+        <mxCell id="zqE73G4ePoDWPab-BB4q-3" value="useEffect(() =&amp;gt; {})" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="zqE73G4ePoDWPab-BB4q-1">
+          <mxGeometry x="570" y="180" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YSfBs35oG5J9ldOroY6b-4" value="" style="endArrow=classic;html=1;strokeWidth=1;fontSize=16;fontColor=#000000;" edge="1" parent="YSfBs35oG5J9ldOroY6b-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="290" as="sourcePoint" />
-            <mxPoint x="520" y="840" as="targetPoint" />
+        <mxCell id="zqE73G4ePoDWPab-BB4q-4" value="useEffect(() =&amp;gt; {}, [ ])" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="zqE73G4ePoDWPab-BB4q-1">
+          <mxGeometry x="570" y="283" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zqE73G4ePoDWPab-BB4q-5" value="useEffect(() =&amp;gt; {}, [value])" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="zqE73G4ePoDWPab-BB4q-1">
+          <mxGeometry x="570" y="387" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zqE73G4ePoDWPab-BB4q-6" value="useEffect(() =&amp;gt; {}, [value, value2])" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="zqE73G4ePoDWPab-BB4q-1">
+          <mxGeometry x="570" y="490" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zqE73G4ePoDWPab-BB4q-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1;fontSize=12;fontColor=#000000;" edge="1" parent="zqE73G4ePoDWPab-BB4q-1" source="zqE73G4ePoDWPab-BB4q-7" target="zqE73G4ePoDWPab-BB4q-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zqE73G4ePoDWPab-BB4q-7" value="Run on initial render + every update" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="zqE73G4ePoDWPab-BB4q-1">
+          <mxGeometry x="910" y="180" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zqE73G4ePoDWPab-BB4q-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1;fontSize=16;fontColor=#000000;" edge="1" parent="zqE73G4ePoDWPab-BB4q-1" target="zqE73G4ePoDWPab-BB4q-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="313" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YSfBs35oG5J9ldOroY6b-5" value="Function called!" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="YSfBs35oG5J9ldOroY6b-1">
-          <mxGeometry x="530" y="400" width="250" height="60" as="geometry" />
+        <mxCell id="zqE73G4ePoDWPab-BB4q-9" value="Run on initial render" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="zqE73G4ePoDWPab-BB4q-1">
+          <mxGeometry x="910" y="283" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YSfBs35oG5J9ldOroY6b-6" value="State update in the component, forcing it to rerender.&amp;nbsp; &#39;Value&#39; and &#39;value2&#39; are the same they were the last time." style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="YSfBs35oG5J9ldOroY6b-1">
-          <mxGeometry x="790" y="290" width="380" height="80" as="geometry" />
+        <mxCell id="zqE73G4ePoDWPab-BB4q-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1;fontSize=16;fontColor=#000000;" edge="1" parent="zqE73G4ePoDWPab-BB4q-1" target="zqE73G4ePoDWPab-BB4q-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="416.9999999999999" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="YSfBs35oG5J9ldOroY6b-7" value="&lt;b&gt;Function not called!&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="YSfBs35oG5J9ldOroY6b-1">
-          <mxGeometry x="790" y="400" width="390" height="60" as="geometry" />
+        <mxCell id="zqE73G4ePoDWPab-BB4q-11" value="Run on initial render + when &#39;value&#39; changes" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="zqE73G4ePoDWPab-BB4q-1">
+          <mxGeometry x="910" y="387" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YSfBs35oG5J9ldOroY6b-8" value="State update in the component, forcing it to rerender.&amp;nbsp; &#39;Value&#39; is different!" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="YSfBs35oG5J9ldOroY6b-1">
-          <mxGeometry x="530" y="570" width="570" height="60" as="geometry" />
+        <mxCell id="zqE73G4ePoDWPab-BB4q-12" value="The second argument to &#39;useEffect&#39; controls how often the function is executed" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="zqE73G4ePoDWPab-BB4q-1">
+          <mxGeometry x="570" y="90" width="970" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YSfBs35oG5J9ldOroY6b-9" value="Function called!" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="YSfBs35oG5J9ldOroY6b-1">
-          <mxGeometry x="530" y="640" width="570" height="60" as="geometry" />
+        <mxCell id="zqE73G4ePoDWPab-BB4q-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1;fontSize=16;fontColor=#000000;" edge="1" parent="zqE73G4ePoDWPab-BB4q-1" target="zqE73G4ePoDWPab-BB4q-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="519.9999999999999" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="YSfBs35oG5J9ldOroY6b-10" value="State update in the component, forcing it to rerender.&amp;nbsp; &#39;Value2&#39; is different!" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="YSfBs35oG5J9ldOroY6b-1">
-          <mxGeometry x="530" y="710" width="570" height="60" as="geometry" />
+        <mxCell id="zqE73G4ePoDWPab-BB4q-14" value="Run on initial render +&amp;nbsp; when &#39;value&#39; or &#39;value2&#39; changes" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="zqE73G4ePoDWPab-BB4q-1">
+          <mxGeometry x="910" y="490" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YSfBs35oG5J9ldOroY6b-11" value="Function called!" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=19;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="YSfBs35oG5J9ldOroY6b-1">
-          <mxGeometry x="530" y="780" width="570" height="60" as="geometry" />
+        <mxCell id="zqE73G4ePoDWPab-BB4q-15" value="????" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=16;fontColor=#000000;align=center;" vertex="1" parent="zqE73G4ePoDWPab-BB4q-1">
+          <mxGeometry x="1040" y="180" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zqE73G4ePoDWPab-BB4q-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1;fontSize=12;fontColor=#000000;" edge="1" parent="zqE73G4ePoDWPab-BB4q-1" target="zqE73G4ePoDWPab-BB4q-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010.0000000000002" y="312.9999999999999" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zqE73G4ePoDWPab-BB4q-18" value="Fetch some data that is not expected to change based on props or state changes" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=16;fontColor=#000000;align=center;" vertex="1" parent="zqE73G4ePoDWPab-BB4q-1">
+          <mxGeometry x="1040" y="283" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zqE73G4ePoDWPab-BB4q-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1;fontSize=12;fontColor=#000000;" edge="1" parent="zqE73G4ePoDWPab-BB4q-1" target="zqE73G4ePoDWPab-BB4q-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010.0000000000002" y="416.9999999999999" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zqE73G4ePoDWPab-BB4q-20" value="If we want to fetch data when some prop or state changes" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=16;fontColor=#000000;align=center;" vertex="1" parent="zqE73G4ePoDWPab-BB4q-1">
+          <mxGeometry x="1040" y="387" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zqE73G4ePoDWPab-BB4q-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1;fontSize=12;fontColor=#000000;" edge="1" parent="zqE73G4ePoDWPab-BB4q-1" target="zqE73G4ePoDWPab-BB4q-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010.0000000000002" y="519.9999999999999" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zqE73G4ePoDWPab-BB4q-22" value="If we want to fetch data when some prop or state changes" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=16;fontColor=#000000;align=center;" vertex="1" parent="zqE73G4ePoDWPab-BB4q-1">
+          <mxGeometry x="1040" y="490" width="500" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="22SO5eSp2SFUI0ksYt6U" name="15 - bug">
+    <mxGraphModel dx="639" dy="314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="fd6d4dGJB8MF2JGO6v5U-0" />
+        <mxCell id="fd6d4dGJB8MF2JGO6v5U-1" parent="fd6d4dGJB8MF2JGO6v5U-0" />
+        <mxCell id="fd6d4dGJB8MF2JGO6v5U-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1;fontSize=16;fontColor=#000000;" edge="1" parent="fd6d4dGJB8MF2JGO6v5U-1" source="fd6d4dGJB8MF2JGO6v5U-2" target="fd6d4dGJB8MF2JGO6v5U-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fd6d4dGJB8MF2JGO6v5U-2" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=16;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fd6d4dGJB8MF2JGO6v5U-1">
+          <mxGeometry x="410" y="220" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fd6d4dGJB8MF2JGO6v5U-3" value="Initial Render" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=16;fontColor=#000000;fontStyle=1" vertex="1" parent="fd6d4dGJB8MF2JGO6v5U-1">
+          <mxGeometry x="455" y="197" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fd6d4dGJB8MF2JGO6v5U-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1;fontSize=16;fontColor=#000000;" edge="1" parent="fd6d4dGJB8MF2JGO6v5U-1" source="fd6d4dGJB8MF2JGO6v5U-4" target="fd6d4dGJB8MF2JGO6v5U-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fd6d4dGJB8MF2JGO6v5U-4" value="open" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=16;fontColor=#000000;align=center;" vertex="1" parent="fd6d4dGJB8MF2JGO6v5U-1">
+          <mxGeometry x="430" y="245" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fd6d4dGJB8MF2JGO6v5U-5" value="false" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=16;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="fd6d4dGJB8MF2JGO6v5U-1">
+          <mxGeometry x="530" y="245" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fd6d4dGJB8MF2JGO6v5U-7" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=16;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fd6d4dGJB8MF2JGO6v5U-1">
+          <mxGeometry x="710" y="220" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fd6d4dGJB8MF2JGO6v5U-8" value="Second Render" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=16;fontColor=#000000;fontStyle=1" vertex="1" parent="fd6d4dGJB8MF2JGO6v5U-1">
+          <mxGeometry x="755" y="197" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fd6d4dGJB8MF2JGO6v5U-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1;fontSize=16;fontColor=#000000;" edge="1" parent="fd6d4dGJB8MF2JGO6v5U-1" source="fd6d4dGJB8MF2JGO6v5U-10" target="fd6d4dGJB8MF2JGO6v5U-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fd6d4dGJB8MF2JGO6v5U-10" value="open" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=16;fontColor=#000000;align=center;" vertex="1" parent="fd6d4dGJB8MF2JGO6v5U-1">
+          <mxGeometry x="730" y="245" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fd6d4dGJB8MF2JGO6v5U-11" value="true" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=16;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="fd6d4dGJB8MF2JGO6v5U-1">
+          <mxGeometry x="830" y="245" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fd6d4dGJB8MF2JGO6v5U-14" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=16;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fd6d4dGJB8MF2JGO6v5U-1">
+          <mxGeometry x="550" y="370" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fd6d4dGJB8MF2JGO6v5U-15" value="Interval" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fontSize=16;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="fd6d4dGJB8MF2JGO6v5U-1">
+          <mxGeometry x="550" y="430" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fd6d4dGJB8MF2JGO6v5U-16" value="console.log(" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;fontSize=16;fontColor=#000000;align=center;" vertex="1" parent="fd6d4dGJB8MF2JGO6v5U-1">
+          <mxGeometry x="555" y="381" width="105" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fd6d4dGJB8MF2JGO6v5U-17" value=")" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;fontSize=16;fontColor=#000000;align=center;" vertex="1" parent="fd6d4dGJB8MF2JGO6v5U-1">
+          <mxGeometry x="720" y="381" width="40" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fd6d4dGJB8MF2JGO6v5U-18" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;fontSize=16;fontColor=#000000;align=center;" vertex="1" parent="fd6d4dGJB8MF2JGO6v5U-1">
+          <mxGeometry x="660" y="381" width="60" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
