@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-24T17:03:02.853Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="cwZOPdgF8vPzjgFCEEru" version="13.3.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-06-24T17:17:02.423Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="9e_UNX_Do8wCqTT3Qph8" version="13.3.4" type="github" pages="4">
   <diagram id="tbnJUxeuOBJzQS9lgaxh" name="01 - search">
     <mxGraphModel dx="884" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -97,6 +97,40 @@
         </mxCell>
         <mxCell id="YO5zbO4EPRQCAxCmng8O-2" value="&lt;b&gt;Wikipedia API&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;" vertex="1" parent="7_j_wMO_so962h4V8mtJ-1">
           <mxGeometry x="862" y="349" width="100" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="xPkEeWgYNyc2iKUyK7xM" name="03 - api">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="Eu9502wmc0qkVvZB5jrW-0" />
+        <mxCell id="Eu9502wmc0qkVvZB5jrW-1" parent="Eu9502wmc0qkVvZB5jrW-0" />
+        <mxCell id="JedENCdvnLpMb0ip3AZi-0" value="en.wikipedia.org/w/api.php?action=query&amp;amp;list=search&amp;amp;format=json&amp;amp;srsearch=programming" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=15;fontStyle=1" vertex="1" parent="Eu9502wmc0qkVvZB5jrW-1">
+          <mxGeometry x="450" y="300" width="710" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m6rmtGK_0SJzHYbXEFea-0" value="Wikipedia API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=2" vertex="1" parent="Eu9502wmc0qkVvZB5jrW-1">
+          <mxGeometry x="737.5" y="370" width="135" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cc6_YIa2t-ZDROWkhoYZ" name="04 - search">
+    <mxGraphModel dx="501" dy="246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="yfcaXmFPviyRpIhBncSC-0" />
+        <mxCell id="yfcaXmFPviyRpIhBncSC-1" parent="yfcaXmFPviyRpIhBncSC-0" />
+        <mxCell id="yfcaXmFPviyRpIhBncSC-2" value="The &#39;useEffect&#39; Hook" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#000000;" vertex="1" parent="yfcaXmFPviyRpIhBncSC-1">
+          <mxGeometry x="645" y="260" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yfcaXmFPviyRpIhBncSC-3" value="Allows function components to set up lifecycle methods" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;fontColor=#333333;align=center;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;gradientColor=none;" vertex="1" parent="yfcaXmFPviyRpIhBncSC-1">
+          <mxGeometry x="570" y="290" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yfcaXmFPviyRpIhBncSC-4" value="Hardest part of useEffect to understand is the &lt;i&gt;second argument&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;fontColor=#333333;align=center;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;gradientColor=none;" vertex="1" parent="yfcaXmFPviyRpIhBncSC-1">
+          <mxGeometry x="570" y="340" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yfcaXmFPviyRpIhBncSC-5" value="Second argument controls &lt;i&gt;when our code is ran&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;fontColor=#333333;align=center;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;gradientColor=none;" vertex="1" parent="yfcaXmFPviyRpIhBncSC-1">
+          <mxGeometry x="570" y="390" width="390" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
