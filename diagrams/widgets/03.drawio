@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-24T17:24:20.679Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="t801hE3cJpnsYbF182Ls" version="13.3.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-06-24T17:40:35.100Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="pwFMUmji9SQsnDOwm9p0" version="13.3.4" type="github" pages="6">
   <diagram id="tbnJUxeuOBJzQS9lgaxh" name="01 - search">
     <mxGraphModel dx="884" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -116,7 +116,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5C2LM5Vp_8T6vqSsaOHq" name="05 - search">
-    <mxGraphModel dx="1036" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="oXkwCKtONn02gHC9SoaP-0" />
         <mxCell id="oXkwCKtONn02gHC9SoaP-1" parent="oXkwCKtONn02gHC9SoaP-0" />
@@ -169,7 +169,7 @@
           <mxGeometry x="850" y="430" width="350" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gkj3fm_Q2vccnfzjA-41-16" value="&lt;i&gt;We add code to detect that &#39;term&#39; has changed!&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="oXkwCKtONn02gHC9SoaP-1">
-          <mxGeometry x="850" y="480" width="350" height="40" as="geometry" />
+          <mxGeometry x="850" y="480" width="460" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gkj3fm_Q2vccnfzjA-41-17" value="Make request to API" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="oXkwCKtONn02gHC9SoaP-1">
           <mxGeometry x="850" y="530" width="350" height="40" as="geometry" />
@@ -228,21 +228,36 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cc6_YIa2t-ZDROWkhoYZ" name="04 - search">
-    <mxGraphModel dx="501" dy="246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="578" dy="284" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="yfcaXmFPviyRpIhBncSC-0" />
         <mxCell id="yfcaXmFPviyRpIhBncSC-1" parent="yfcaXmFPviyRpIhBncSC-0" />
         <mxCell id="yfcaXmFPviyRpIhBncSC-2" value="The &#39;useEffect&#39; Hook" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#000000;" vertex="1" parent="yfcaXmFPviyRpIhBncSC-1">
-          <mxGeometry x="645" y="260" width="240" height="20" as="geometry" />
+          <mxGeometry x="670" y="263" width="240" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="yfcaXmFPviyRpIhBncSC-3" value="Allows function components to set up lifecycle methods" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;fontColor=#333333;align=center;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;gradientColor=none;" vertex="1" parent="yfcaXmFPviyRpIhBncSC-1">
-          <mxGeometry x="570" y="290" width="390" height="40" as="geometry" />
+        <mxCell id="yfcaXmFPviyRpIhBncSC-3" value="Allows function components to use &lt;i&gt;something like&lt;/i&gt; lifecycle methods" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;fontColor=#333333;align=center;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;" vertex="1" parent="yfcaXmFPviyRpIhBncSC-1">
+          <mxGeometry x="570" y="290" width="440" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yfcaXmFPviyRpIhBncSC-4" value="Hardest part of useEffect to understand is the &lt;i&gt;second argument&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;fontColor=#333333;align=center;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;gradientColor=none;" vertex="1" parent="yfcaXmFPviyRpIhBncSC-1">
-          <mxGeometry x="570" y="340" width="390" height="40" as="geometry" />
+        <mxCell id="yfcaXmFPviyRpIhBncSC-4" value="We configure the hook to run some code automatically in one of three scenarios" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;fontColor=#333333;align=center;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;" vertex="1" parent="yfcaXmFPviyRpIhBncSC-1">
+          <mxGeometry x="570" y="340" width="440" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yfcaXmFPviyRpIhBncSC-5" value="Second argument controls &lt;i&gt;when our code is ran&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;fontColor=#333333;align=center;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;gradientColor=none;" vertex="1" parent="yfcaXmFPviyRpIhBncSC-1">
-          <mxGeometry x="570" y="390" width="390" height="40" as="geometry" />
+        <mxCell id="MA-wziQOEaegnSGaq9to-0" value="When the component is rendered&amp;nbsp;&lt;i&gt;for the first time only&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;fontColor=#333333;align=center;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;" vertex="1" parent="yfcaXmFPviyRpIhBncSC-1">
+          <mxGeometry x="610" y="390" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MA-wziQOEaegnSGaq9to-1" value="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;fontColor=#333333;align=center;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;" vertex="1" parent="yfcaXmFPviyRpIhBncSC-1">
+          <mxGeometry x="570" y="390" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MA-wziQOEaegnSGaq9to-2" value="When the component is rendered &lt;i&gt;&lt;b&gt;for the first time and whenever it rerenders&lt;/b&gt;&amp;nbsp;&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;fontColor=#333333;align=center;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;" vertex="1" parent="yfcaXmFPviyRpIhBncSC-1">
+          <mxGeometry x="610" y="440" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MA-wziQOEaegnSGaq9to-3" value="2" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;fontColor=#333333;align=center;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;" vertex="1" parent="yfcaXmFPviyRpIhBncSC-1">
+          <mxGeometry x="570" y="440" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MA-wziQOEaegnSGaq9to-4" value="When the component is rendered&amp;nbsp;&lt;i&gt;&lt;b&gt;for the first time and whenever it rerenders&lt;/b&gt;&amp;nbsp;&lt;b&gt;and&lt;/b&gt; &lt;b&gt;some piece of data has changed&lt;/b&gt;&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;fontColor=#333333;align=center;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;" vertex="1" parent="yfcaXmFPviyRpIhBncSC-1">
+          <mxGeometry x="610" y="490" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MA-wziQOEaegnSGaq9to-5" value="3" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;fontColor=#333333;align=center;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;" vertex="1" parent="yfcaXmFPviyRpIhBncSC-1">
+          <mxGeometry x="570" y="490" width="40" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
