@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-24T17:17:02.423Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="9e_UNX_Do8wCqTT3Qph8" version="13.3.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-06-24T17:21:26.835Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="Y2TT161HG1K8GO_3axgU" version="13.3.4" type="github" pages="5">
   <diagram id="tbnJUxeuOBJzQS9lgaxh" name="01 - search">
     <mxGraphModel dx="884" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -111,6 +111,80 @@
         </mxCell>
         <mxCell id="m6rmtGK_0SJzHYbXEFea-0" value="Wikipedia API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=2" vertex="1" parent="Eu9502wmc0qkVvZB5jrW-1">
           <mxGeometry x="737.5" y="370" width="135" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5C2LM5Vp_8T6vqSsaOHq" name="05 - search">
+    <mxGraphModel dx="1036" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="oXkwCKtONn02gHC9SoaP-0" />
+        <mxCell id="oXkwCKtONn02gHC9SoaP-1" parent="oXkwCKtONn02gHC9SoaP-0" />
+        <mxCell id="gkj3fm_Q2vccnfzjA-41-0" value="User types in input" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="oXkwCKtONn02gHC9SoaP-1">
+          <mxGeometry x="450" y="280" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gkj3fm_Q2vccnfzjA-41-1" value="User types in input" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="oXkwCKtONn02gHC9SoaP-1">
+          <mxGeometry x="850" y="280" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gkj3fm_Q2vccnfzjA-41-2" value="Option #1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="oXkwCKtONn02gHC9SoaP-1">
+          <mxGeometry x="555" y="258" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gkj3fm_Q2vccnfzjA-41-3" value="Option #2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="oXkwCKtONn02gHC9SoaP-1">
+          <mxGeometry x="955" y="258" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gkj3fm_Q2vccnfzjA-41-4" value="When Do We Search?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;fontStyle=1" vertex="1" parent="oXkwCKtONn02gHC9SoaP-1">
+          <mxGeometry x="710" y="230" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gkj3fm_Q2vccnfzjA-41-6" value="onChange event handler called" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="oXkwCKtONn02gHC9SoaP-1">
+          <mxGeometry x="450" y="330" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gkj3fm_Q2vccnfzjA-41-7" value="We take value from input and make request to API" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="oXkwCKtONn02gHC9SoaP-1">
+          <mxGeometry x="450" y="380" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gkj3fm_Q2vccnfzjA-41-8" value="Get response" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="oXkwCKtONn02gHC9SoaP-1">
+          <mxGeometry x="450" y="460" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gkj3fm_Q2vccnfzjA-41-9" value="...." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;fontStyle=1" vertex="1" parent="oXkwCKtONn02gHC9SoaP-1">
+          <mxGeometry x="510" y="430" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gkj3fm_Q2vccnfzjA-41-10" value="Update &#39;results&#39; piece of state" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="oXkwCKtONn02gHC9SoaP-1">
+          <mxGeometry x="450" y="510" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gkj3fm_Q2vccnfzjA-41-11" value="Component rerenders, we show list of results" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="oXkwCKtONn02gHC9SoaP-1">
+          <mxGeometry x="450" y="560" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gkj3fm_Q2vccnfzjA-41-12" value="" style="endArrow=classic;html=1;fontSize=21;" edge="1" parent="oXkwCKtONn02gHC9SoaP-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="824.75" y="280" as="sourcePoint" />
+            <mxPoint x="825" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gkj3fm_Q2vccnfzjA-41-13" value="onChange event handler called" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="oXkwCKtONn02gHC9SoaP-1">
+          <mxGeometry x="850" y="330" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gkj3fm_Q2vccnfzjA-41-14" value="Update &#39;term&#39; piece of state" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="oXkwCKtONn02gHC9SoaP-1">
+          <mxGeometry x="850" y="380" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gkj3fm_Q2vccnfzjA-41-15" value="Component rerenders" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="oXkwCKtONn02gHC9SoaP-1">
+          <mxGeometry x="850" y="430" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gkj3fm_Q2vccnfzjA-41-16" value="&lt;i&gt;We add code to detect that &#39;term&#39; has changed!&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="oXkwCKtONn02gHC9SoaP-1">
+          <mxGeometry x="850" y="480" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gkj3fm_Q2vccnfzjA-41-17" value="Make request to API" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="oXkwCKtONn02gHC9SoaP-1">
+          <mxGeometry x="850" y="530" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gkj3fm_Q2vccnfzjA-41-18" value="Get response" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="oXkwCKtONn02gHC9SoaP-1">
+          <mxGeometry x="850" y="600" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gkj3fm_Q2vccnfzjA-41-19" value="...." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;fontStyle=1" vertex="1" parent="oXkwCKtONn02gHC9SoaP-1">
+          <mxGeometry x="910" y="570" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gkj3fm_Q2vccnfzjA-41-20" value="Update &#39;results&#39; piece of state" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="oXkwCKtONn02gHC9SoaP-1">
+          <mxGeometry x="850" y="650" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gkj3fm_Q2vccnfzjA-41-21" value="Component rerenders, we show list of results" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="oXkwCKtONn02gHC9SoaP-1">
+          <mxGeometry x="850" y="700" width="350" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
