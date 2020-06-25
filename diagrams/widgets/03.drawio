@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-25T17:56:59.523Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="A3ELnf3etZLOqMWBWnL7" version="13.3.4" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2020-06-25T19:18:33.401Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="f5epVYl1gdhl-3vkUlUY" version="13.3.4" type="github" pages="12">
   <diagram id="tbnJUxeuOBJzQS9lgaxh" name="01 - search">
     <mxGraphModel dx="1502" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -776,6 +776,35 @@
         </mxCell>
         <mxCell id="JtoQ_lL8oN1cNIEV03Ai-29" value="Last timer created executes!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;shadow=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="JtoQ_lL8oN1cNIEV03Ai-1">
           <mxGeometry x="780" y="482.5" width="210" height="25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Cf_KWZHBQow5kQeEcnpG" name="12 - cleanup">
+    <mxGraphModel dx="791" dy="389" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="JJHdLnJqxe9ymoUvbWPC-0" />
+        <mxCell id="JJHdLnJqxe9ymoUvbWPC-1" parent="JJHdLnJqxe9ymoUvbWPC-0" />
+        <mxCell id="ZE0XOjdnzzXXy-WL5gWn-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="JJHdLnJqxe9ymoUvbWPC-1" source="ZE0XOjdnzzXXy-WL5gWn-1" target="ZE0XOjdnzzXXy-WL5gWn-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZE0XOjdnzzXXy-WL5gWn-1" value="Initial Component Render" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="JJHdLnJqxe9ymoUvbWPC-1">
+          <mxGeometry x="580" y="150" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZE0XOjdnzzXXy-WL5gWn-2" value="Rerender" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="JJHdLnJqxe9ymoUvbWPC-1">
+          <mxGeometry x="580" y="300" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZE0XOjdnzzXXy-WL5gWn-5" value="" style="endArrow=classic;html=1;fontSize=17;" edge="1" parent="JJHdLnJqxe9ymoUvbWPC-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="150" as="sourcePoint" />
+            <mxPoint x="570" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZE0XOjdnzzXXy-WL5gWn-24" value="Rerender" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="JJHdLnJqxe9ymoUvbWPC-1">
+          <mxGeometry x="580" y="460" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZE0XOjdnzzXXy-WL5gWn-25" value="useEffect Called" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="JJHdLnJqxe9ymoUvbWPC-1">
+          <mxGeometry x="770" y="210" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
