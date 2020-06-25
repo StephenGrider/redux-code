@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-25T17:44:50.742Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="qxUMOHqasyhC22JsFVYm" version="13.3.4" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2020-06-25T17:47:31.062Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="_QGbmZghmqRnIqPWhQrh" version="13.3.4" type="github" pages="11">
   <diagram id="tbnJUxeuOBJzQS9lgaxh" name="01 - search">
     <mxGraphModel dx="1502" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -696,9 +696,6 @@
         <mxCell id="JtoQ_lL8oN1cNIEV03Ai-6" value="Input Change" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="JtoQ_lL8oN1cNIEV03Ai-1">
           <mxGeometry x="580" y="330" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="JtoQ_lL8oN1cNIEV03Ai-7" value="Search" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;shadow=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="JtoQ_lL8oN1cNIEV03Ai-1">
-          <mxGeometry x="780" y="470" width="160" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="JtoQ_lL8oN1cNIEV03Ai-8" value="" style="endArrow=classic;html=1;fontSize=17;" edge="1" parent="JtoQ_lL8oN1cNIEV03Ai-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="570" y="150" as="sourcePoint" />
@@ -708,8 +705,10 @@
         <mxCell id="JtoQ_lL8oN1cNIEV03Ai-9" value="...Wait for 500ms without another &#39;Input Change&#39;..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=17;fontStyle=2" vertex="1" parent="JtoQ_lL8oN1cNIEV03Ai-1">
           <mxGeometry x="585" y="393" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JtoQ_lL8oN1cNIEV03Ai-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" parent="JtoQ_lL8oN1cNIEV03Ai-1" source="JtoQ_lL8oN1cNIEV03Ai-11" target="JtoQ_lL8oN1cNIEV03Ai-7">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="JtoQ_lL8oN1cNIEV03Ai-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" parent="JtoQ_lL8oN1cNIEV03Ai-1" source="JtoQ_lL8oN1cNIEV03Ai-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="779.9999999999998" y="495" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="JtoQ_lL8oN1cNIEV03Ai-11" value="No additional changes!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;shadow=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="JtoQ_lL8oN1cNIEV03Ai-1">
           <mxGeometry x="585" y="470" width="160" height="50" as="geometry" />
@@ -731,6 +730,30 @@
             <mxPoint x="740.0000000000002" y="355" as="sourcePoint" />
             <mxPoint x="779.9999999999998" y="355" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="JtoQ_lL8oN1cNIEV03Ai-20" value="Set a timer to Search in 500ms" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;shadow=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="JtoQ_lL8oN1cNIEV03Ai-1">
+          <mxGeometry x="780" y="160" width="210" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="JtoQ_lL8oN1cNIEV03Ai-23" value="Cancel previous timer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;shadow=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="JtoQ_lL8oN1cNIEV03Ai-1">
+          <mxGeometry x="780" y="210" width="210" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="JtoQ_lL8oN1cNIEV03Ai-22" value="Set a timer to Search in 500ms" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;shadow=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="JtoQ_lL8oN1cNIEV03Ai-1">
+          <mxGeometry x="780" y="235" width="210" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="JtoQ_lL8oN1cNIEV03Ai-25" value="Cancel previous timer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;shadow=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="JtoQ_lL8oN1cNIEV03Ai-1">
+          <mxGeometry x="780" y="270" width="210" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="JtoQ_lL8oN1cNIEV03Ai-26" value="Set a timer to Search in 500ms" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;shadow=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="JtoQ_lL8oN1cNIEV03Ai-1">
+          <mxGeometry x="780" y="295" width="210" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="JtoQ_lL8oN1cNIEV03Ai-27" value="Cancel previous timer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;shadow=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="JtoQ_lL8oN1cNIEV03Ai-1">
+          <mxGeometry x="780" y="330" width="210" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="JtoQ_lL8oN1cNIEV03Ai-28" value="Set a timer to Search in 500ms" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;shadow=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="JtoQ_lL8oN1cNIEV03Ai-1">
+          <mxGeometry x="780" y="355" width="210" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="JtoQ_lL8oN1cNIEV03Ai-29" value="Last timer created executes!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;shadow=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="JtoQ_lL8oN1cNIEV03Ai-1">
+          <mxGeometry x="780" y="482.5" width="210" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
