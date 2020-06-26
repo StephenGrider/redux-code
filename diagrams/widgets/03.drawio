@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-26T16:55:30.704Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="IqkEFpdmX7HgI1DCUf2z" version="13.3.5" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2020-06-26T16:56:22.825Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="TwtBZ0KbF5r4zYBwMtgQ" version="13.3.5" type="github" pages="15">
   <diagram id="tbnJUxeuOBJzQS9lgaxh" name="01 - search">
     <mxGraphModel dx="1502" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -1221,6 +1221,23 @@
         </mxCell>
         <mxCell id="4i0ro3qUs6tyDnDS_igk-30" value="Request made!" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="4i0ro3qUs6tyDnDS_igk-1">
           <mxGeometry x="790" y="460" width="270" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="w-OFpmvJhlrt1oDcCX3N" name="15 - skip">
+    <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="xF14YqtLEATFnlc_1Gn8-0" />
+        <mxCell id="xF14YqtLEATFnlc_1Gn8-1" parent="xF14YqtLEATFnlc_1Gn8-0" />
+        <mxCell id="XCahprFYjdM-ayy3fREA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="xF14YqtLEATFnlc_1Gn8-1" source="XCahprFYjdM-ayy3fREA-0" target="XCahprFYjdM-ayy3fREA-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XCahprFYjdM-ayy3fREA-0" value="This video is &lt;i style=&quot;font-size: 20px;&quot;&gt;optional&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;shadow=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="xF14YqtLEATFnlc_1Gn8-1">
+          <mxGeometry x="580" y="300" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XCahprFYjdM-ayy3fREA-1" value="We are going to look at a tough situation around useEffect" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;shadow=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="xF14YqtLEATFnlc_1Gn8-1">
+          <mxGeometry x="580" y="420" width="340" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
