@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-26T18:11:23.721Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="PnqPtS_XQtxIluvU1Hio" version="13.3.4" type="github" pages="21">
+<mxfile host="app.diagrams.net" modified="2020-06-26T18:13:13.733Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="wglmAO86ooF5Dpx0W3r7" version="13.3.4" type="github" pages="22">
   <diagram id="h4KtKgRzYph5OhGiSQl3" name="01 - full">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -732,6 +732,38 @@
         </mxCell>
         <mxCell id="9T9eVp_sr8EcID9pGfMZ-4" value="Event bubbling is a thing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="3ut89bEQRr2TDLqGrDjw-1">
           <mxGeometry x="580" y="510" width="290" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="22 - then" id="5oB49D4M_bi_6abL4Svd">
+    <mxGraphModel dx="567" dy="279" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="XOSLX8hwLGY5hniAiOeq-0" />
+        <mxCell id="XOSLX8hwLGY5hniAiOeq-1" parent="XOSLX8hwLGY5hniAiOeq-0" />
+        <mxCell id="GkmLjpis-afoz-u5_0AC-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" parent="XOSLX8hwLGY5hniAiOeq-1" source="XOSLX8hwLGY5hniAiOeq-2" target="GkmLjpis-afoz-u5_0AC-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XOSLX8hwLGY5hniAiOeq-2" value="The Dropdown needs to detect a click event on &lt;i&gt;any element besides one it created&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XOSLX8hwLGY5hniAiOeq-1">
+          <mxGeometry x="580" y="370" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XOSLX8hwLGY5hniAiOeq-3" value="What We&#39;ve Got So Far" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=17;" vertex="1" parent="XOSLX8hwLGY5hniAiOeq-1">
+          <mxGeometry x="623.75" y="340" width="202.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GkmLjpis-afoz-u5_0AC-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" parent="XOSLX8hwLGY5hniAiOeq-1" source="XOSLX8hwLGY5hniAiOeq-4" target="GkmLjpis-afoz-u5_0AC-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XOSLX8hwLGY5hniAiOeq-4" value="The Dropdown has a hard time setting up event handlers on elements that it does not create" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XOSLX8hwLGY5hniAiOeq-1">
+          <mxGeometry x="580" y="510" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GkmLjpis-afoz-u5_0AC-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" parent="XOSLX8hwLGY5hniAiOeq-1" source="XOSLX8hwLGY5hniAiOeq-5" target="GkmLjpis-afoz-u5_0AC-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XOSLX8hwLGY5hniAiOeq-5" value="Event bubbling is a thing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XOSLX8hwLGY5hniAiOeq-1">
+          <mxGeometry x="580" y="440" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GkmLjpis-afoz-u5_0AC-0" value="The Dropdown can set up a manual event listener (without React) on the body element.&amp;nbsp; &lt;br&gt;&lt;br&gt;A click on &lt;i&gt;any element&lt;/i&gt;&amp;nbsp;will bubble up to the body!" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="XOSLX8hwLGY5hniAiOeq-1">
+          <mxGeometry x="930" y="416.25" width="200" height="107.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
