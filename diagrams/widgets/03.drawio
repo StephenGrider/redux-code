@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-26T16:56:22.825Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="TwtBZ0KbF5r4zYBwMtgQ" version="13.3.5" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2020-06-26T17:33:34.262Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="5rU8iMjYHQdvVYLo1J9v" version="13.3.5" type="github" pages="15">
   <diagram id="tbnJUxeuOBJzQS9lgaxh" name="01 - search">
     <mxGraphModel dx="1502" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -1307,6 +1307,9 @@
         <mxCell id="M0VWq9Qh1qHoXwkTmzEf-29" value="Set a timer to update &#39;debouncedTerm&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;shadow=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="2AWvlpU0V8AFOfyngBkQ-1">
           <mxGeometry x="780" y="425" width="160" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="xmu2BUlkZjPMZErxwTdw-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="2AWvlpU0V8AFOfyngBkQ-1" source="M0VWq9Qh1qHoXwkTmzEf-30" target="M0VWq9Qh1qHoXwkTmzEf-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="M0VWq9Qh1qHoXwkTmzEf-30" value="Cancel previous timer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;shadow=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="2AWvlpU0V8AFOfyngBkQ-1">
           <mxGeometry x="780" y="335" width="160" height="40" as="geometry" />
         </mxCell>
@@ -1343,10 +1346,10 @@
           <mxGeometry x="780" y="640" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="M0VWq9Qh1qHoXwkTmzEf-44" value="useEffect for &#39;debouncedTerm&#39; runs" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;shadow=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="2AWvlpU0V8AFOfyngBkQ-1">
-          <mxGeometry x="780" y="102.5" width="160" height="37.5" as="geometry" />
+          <mxGeometry x="960" y="102.5" width="160" height="37.5" as="geometry" />
         </mxCell>
         <mxCell id="M0VWq9Qh1qHoXwkTmzEf-45" value="Initial data fetch complete" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;shadow=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="2AWvlpU0V8AFOfyngBkQ-1">
-          <mxGeometry x="780" y="140" width="160" height="37.5" as="geometry" />
+          <mxGeometry x="960" y="140" width="160" height="37.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
