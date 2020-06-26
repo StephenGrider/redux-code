@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-26T18:06:19.226Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="bBBk5F9PdxGxPxbKIE4c" version="13.3.4" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2020-06-26T18:06:41.134Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="42qt130hG92_hR0-QDsQ" version="13.3.4" type="github" pages="20">
   <diagram id="h4KtKgRzYph5OhGiSQl3" name="01 - full">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -758,7 +758,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="07 - ref" id="pWKvWOzSZvgg4pbl96oc">
-    <mxGraphModel dx="1502" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="XYQriOTmn1ySGcq7vq4N-0" />
         <mxCell id="XYQriOTmn1ySGcq7vq4N-1" parent="XYQriOTmn1ySGcq7vq4N-0" />
@@ -795,73 +795,42 @@
           <mxGeometry x="880" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="d1kAO2m3PBH66zs9yH8A-2" value="Event!" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=23;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="XYQriOTmn1ySGcq7vq4N-1" vertex="1">
-          <mxGeometry x="750" y="550" width="80" height="60" as="geometry" />
+          <mxGeometry x="740" y="560" width="80" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="64lU1uxPZDTfUJ-Hfxjs" name="11 - lifecycle">
-    
     <mxGraphModel dx="567" dy="279" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
-      
       <root>
-        
         <mxCell id="vjjprbzvebpTOUIzQgGP-0" />
-        
         <mxCell id="vjjprbzvebpTOUIzQgGP-1" parent="vjjprbzvebpTOUIzQgGP-0" />
-        
-        <mxCell id="o9uY6VIXdQgikGkTOoG8-0" value="App starts up" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="vjjprbzvebpTOUIzQgGP-1">
-          
+        <mxCell id="o9uY6VIXdQgikGkTOoG8-0" value="App starts up" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vjjprbzvebpTOUIzQgGP-1" vertex="1">
           <mxGeometry x="570" y="220" width="370" height="40" as="geometry" />
-          
         </mxCell>
-        
-        <mxCell id="o9uY6VIXdQgikGkTOoG8-1" value="&lt;i&gt;If we were using class based components...&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#000000;" vertex="1" parent="vjjprbzvebpTOUIzQgGP-1">
-          
+        <mxCell id="o9uY6VIXdQgikGkTOoG8-1" value="&lt;i&gt;If we were using class based components...&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#000000;" parent="vjjprbzvebpTOUIzQgGP-1" vertex="1">
           <mxGeometry x="578.75" y="190" width="352.5" height="20" as="geometry" />
-          
         </mxCell>
-        
-        <mxCell id="o9uY6VIXdQgikGkTOoG8-2" value="" style="endArrow=classic;html=1;strokeWidth=1;fontSize=18;fontColor=#000000;" edge="1" parent="vjjprbzvebpTOUIzQgGP-1">
-          
+        <mxCell id="o9uY6VIXdQgikGkTOoG8-2" value="" style="endArrow=classic;html=1;strokeWidth=1;fontSize=18;fontColor=#000000;" parent="vjjprbzvebpTOUIzQgGP-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            
             <mxPoint x="560" y="220" as="sourcePoint" />
-            
             <mxPoint x="560" y="460" as="targetPoint" />
-            
           </mxGeometry>
-          
         </mxCell>
-        
-        <mxCell id="o9uY6VIXdQgikGkTOoG8-3" value="React creates an instance of Dropdown" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="vjjprbzvebpTOUIzQgGP-1">
-          
+        <mxCell id="o9uY6VIXdQgikGkTOoG8-3" value="React creates an instance of Dropdown" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vjjprbzvebpTOUIzQgGP-1" vertex="1">
           <mxGeometry x="570" y="270" width="370" height="40" as="geometry" />
-          
         </mxCell>
-        
-        <mxCell id="o9uY6VIXdQgikGkTOoG8-4" value="React shows Dropdown in the DOM" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="vjjprbzvebpTOUIzQgGP-1">
-          
+        <mxCell id="o9uY6VIXdQgikGkTOoG8-4" value="React shows Dropdown in the DOM" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vjjprbzvebpTOUIzQgGP-1" vertex="1">
           <mxGeometry x="570" y="320" width="370" height="40" as="geometry" />
-          
         </mxCell>
-        
-        <mxCell id="o9uY6VIXdQgikGkTOoG8-5" value="React &lt;i style=&quot;font-size: 14px;&quot;&gt;automatically&lt;/i&gt;&amp;nbsp;calls the &#39;componentDidMount&#39; lifecycle method" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="vjjprbzvebpTOUIzQgGP-1">
-          
+        <mxCell id="o9uY6VIXdQgikGkTOoG8-5" value="React &lt;i style=&quot;font-size: 14px;&quot;&gt;automatically&lt;/i&gt;&amp;nbsp;calls the &#39;componentDidMount&#39; lifecycle method" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vjjprbzvebpTOUIzQgGP-1" vertex="1">
           <mxGeometry x="570" y="370" width="370" height="40" as="geometry" />
-          
         </mxCell>
-        
-        <mxCell id="o9uY6VIXdQgikGkTOoG8-6" value="We run code to add an event listener to the body element to watch for click events that bubble up" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="vjjprbzvebpTOUIzQgGP-1">
-          
+        <mxCell id="o9uY6VIXdQgikGkTOoG8-6" value="We run code to add an event listener to the body element to watch for click events that bubble up" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vjjprbzvebpTOUIzQgGP-1" vertex="1">
           <mxGeometry x="570" y="420" width="370" height="40" as="geometry" />
-          
         </mxCell>
-        
       </root>
-      
     </mxGraphModel>
-    
   </diagram>
   <diagram id="ys8UyUnctEl9gmQLE7Cc" name="12 - useeffect">
     
