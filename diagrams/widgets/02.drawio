@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-26T17:56:12.621Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="AF3Mx0y1d_XMh2kaDMus" version="13.3.4" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2020-06-26T18:01:31.004Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="cUCvY_ZB0R-AuJL1wakq" version="13.3.4" type="github" pages="20">
   <diagram id="h4KtKgRzYph5OhGiSQl3" name="01 - full">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -546,6 +546,41 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram name="10 - child events" id="duPja2de4mciq6kMhUOg">
+    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="p5tWNY9VQOh-tXuHlhff-0" />
+        <mxCell id="p5tWNY9VQOh-tXuHlhff-1" parent="p5tWNY9VQOh-tXuHlhff-0" />
+        <mxCell id="p5tWNY9VQOh-tXuHlhff-2" value="&amp;nbsp;body" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fontColor=#000000;align=left;" parent="p5tWNY9VQOh-tXuHlhff-1" vertex="1">
+          <mxGeometry x="460" y="200" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p5tWNY9VQOh-tXuHlhff-3" value="&amp;nbsp;div" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fontColor=#000000;align=left;" parent="p5tWNY9VQOh-tXuHlhff-1" vertex="1">
+          <mxGeometry x="490" y="380" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p5tWNY9VQOh-tXuHlhff-5" value="&amp;nbsp;Dropdown" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="p5tWNY9VQOh-tXuHlhff-1" vertex="1">
+          <mxGeometry x="510" y="440" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p5tWNY9VQOh-tXuHlhff-6" value="&amp;nbsp;div.ui.form" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fontColor=#000000;align=left;" parent="p5tWNY9VQOh-tXuHlhff-1" vertex="1">
+          <mxGeometry x="540" y="500" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p5tWNY9VQOh-tXuHlhff-7" value="&amp;nbsp;div.ui.selection" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fontColor=#000000;align=left;" parent="p5tWNY9VQOh-tXuHlhff-1" vertex="1">
+          <mxGeometry x="560" y="560" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p5tWNY9VQOh-tXuHlhff-8" value="&amp;nbsp;Accordion" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fontColor=#000000;align=left;" parent="p5tWNY9VQOh-tXuHlhff-1" vertex="1">
+          <mxGeometry x="490" y="260" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p5tWNY9VQOh-tXuHlhff-9" value="&amp;nbsp;div" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fontColor=#000000;align=left;" parent="p5tWNY9VQOh-tXuHlhff-1" vertex="1">
+          <mxGeometry x="520" y="320" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p5tWNY9VQOh-tXuHlhff-10" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;fontSize=18;fontColor=#000000;align=center;rotation=-180;" parent="p5tWNY9VQOh-tXuHlhff-1" vertex="1">
+          <mxGeometry x="830" y="500" width="50" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p5tWNY9VQOh-tXuHlhff-11" value="Dropdown component can only set up event handlers &lt;i&gt;easily&lt;/i&gt;&amp;nbsp;(using JSX props) on elements it creates" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#000000;" parent="p5tWNY9VQOh-tXuHlhff-1" vertex="1">
+          <mxGeometry x="880" y="530" width="220" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram name="09 - events" id="wco5MkBkKz2Cvzh8ZGIT">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -580,41 +615,6 @@
         </mxCell>
         <mxCell id="34p_2BKZFYLXkFqm5-c1-11" value="Dropdown needs to somehow listen to events on these elements!" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#000000;" parent="34p_2BKZFYLXkFqm5-c1-1" vertex="1">
           <mxGeometry x="840" y="290" width="220" height="60" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram name="10 - child events" id="duPja2de4mciq6kMhUOg">
-    <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
-      <root>
-        <mxCell id="p5tWNY9VQOh-tXuHlhff-0" />
-        <mxCell id="p5tWNY9VQOh-tXuHlhff-1" parent="p5tWNY9VQOh-tXuHlhff-0" />
-        <mxCell id="p5tWNY9VQOh-tXuHlhff-2" value="&amp;nbsp;body" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fontColor=#000000;align=left;" parent="p5tWNY9VQOh-tXuHlhff-1" vertex="1">
-          <mxGeometry x="460" y="200" width="260" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="p5tWNY9VQOh-tXuHlhff-3" value="&amp;nbsp;div" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fontColor=#000000;align=left;" parent="p5tWNY9VQOh-tXuHlhff-1" vertex="1">
-          <mxGeometry x="490" y="380" width="260" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="p5tWNY9VQOh-tXuHlhff-5" value="&amp;nbsp;Dropdown" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="p5tWNY9VQOh-tXuHlhff-1" vertex="1">
-          <mxGeometry x="520" y="440" width="260" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="p5tWNY9VQOh-tXuHlhff-6" value="&amp;nbsp;div.ui.form" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fontColor=#000000;align=left;" parent="p5tWNY9VQOh-tXuHlhff-1" vertex="1">
-          <mxGeometry x="540" y="500" width="260" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="p5tWNY9VQOh-tXuHlhff-7" value="&amp;nbsp;div.ui.selection" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fontColor=#000000;align=left;" parent="p5tWNY9VQOh-tXuHlhff-1" vertex="1">
-          <mxGeometry x="560" y="560" width="260" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="p5tWNY9VQOh-tXuHlhff-8" value="&amp;nbsp;Accordion" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fontColor=#000000;align=left;" parent="p5tWNY9VQOh-tXuHlhff-1" vertex="1">
-          <mxGeometry x="490" y="260" width="260" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="p5tWNY9VQOh-tXuHlhff-9" value="&amp;nbsp;div" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fontColor=#000000;align=left;" parent="p5tWNY9VQOh-tXuHlhff-1" vertex="1">
-          <mxGeometry x="520" y="320" width="260" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="p5tWNY9VQOh-tXuHlhff-10" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;fontSize=18;fontColor=#000000;align=center;rotation=-180;" parent="p5tWNY9VQOh-tXuHlhff-1" vertex="1">
-          <mxGeometry x="830" y="500" width="50" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="p5tWNY9VQOh-tXuHlhff-11" value="Dropdown component can only set up event handlers &lt;i&gt;easily&lt;/i&gt;&amp;nbsp;(using JSX props) on elements it creates" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#000000;" parent="p5tWNY9VQOh-tXuHlhff-1" vertex="1">
-          <mxGeometry x="880" y="530" width="220" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -711,7 +711,7 @@
           <mxGeometry x="730" y="440" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fwZjbBtUsd2_mIZ0Jn4s-0" value="onClick" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=18;align=center;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=0" parent="-ptk2Ekg9VcRtJS9KSOU-1" vertex="1">
-          <mxGeometry x="620" y="200" width="70" height="60" as="geometry" />
+          <mxGeometry x="695" y="560" width="70" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
