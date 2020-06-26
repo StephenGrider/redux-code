@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-26T18:09:30.198Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="tiYH__CfqnJCl7MgKwl2" version="13.3.4" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2020-06-26T18:11:23.721Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="PnqPtS_XQtxIluvU1Hio" version="13.3.4" type="github" pages="21">
   <diagram id="h4KtKgRzYph5OhGiSQl3" name="01 - full">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -716,6 +716,26 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="9EKF9e7nMDapJwVAN2DL" name="21 - sofar">
+    <mxGraphModel dx="527" dy="259" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="3ut89bEQRr2TDLqGrDjw-0" />
+        <mxCell id="3ut89bEQRr2TDLqGrDjw-1" parent="3ut89bEQRr2TDLqGrDjw-0" />
+        <mxCell id="9T9eVp_sr8EcID9pGfMZ-0" value="The Dropdown needs to detect a click event on &lt;i&gt;any element besides one it created&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="3ut89bEQRr2TDLqGrDjw-1">
+          <mxGeometry x="580" y="370" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9T9eVp_sr8EcID9pGfMZ-2" value="What We&#39;ve Got So Far" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=17;" vertex="1" parent="3ut89bEQRr2TDLqGrDjw-1">
+          <mxGeometry x="623.75" y="340" width="202.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9T9eVp_sr8EcID9pGfMZ-3" value="The Dropdown has a hard time setting up event handlers on elements that it does not create" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="3ut89bEQRr2TDLqGrDjw-1">
+          <mxGeometry x="580" y="440" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9T9eVp_sr8EcID9pGfMZ-4" value="Event bubbling is a thing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="3ut89bEQRr2TDLqGrDjw-1">
+          <mxGeometry x="580" y="510" width="290" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram name="06 - ref" id="zz_Ka2PePQTm312L-94T">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -743,16 +763,16 @@
           <mxGeometry x="540" y="380" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dPTsNBg4rkB8dAdLTvSR-0" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;fontSize=18;fontColor=#000000;align=center;rotation=-180;" parent="YPQyTHNSfD8Q9DfAZzBo-1" vertex="1">
-          <mxGeometry x="790" y="200" width="50" height="240" as="geometry" />
+          <mxGeometry x="810" y="200" width="50" height="240" as="geometry" />
         </mxCell>
         <mxCell id="dPTsNBg4rkB8dAdLTvSR-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=1;fontSize=18;fontColor=#000000;" parent="YPQyTHNSfD8Q9DfAZzBo-1" source="dPTsNBg4rkB8dAdLTvSR-1" target="dPTsNBg4rkB8dAdLTvSR-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dPTsNBg4rkB8dAdLTvSR-1" value="Clicking on any of these should close the dropdown" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#000000;" parent="YPQyTHNSfD8Q9DfAZzBo-1" vertex="1">
-          <mxGeometry x="840" y="290" width="180" height="60" as="geometry" />
+          <mxGeometry x="860" y="290" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dPTsNBg4rkB8dAdLTvSR-2" value="Does that mean we have to set up an event listener on every one of these elements?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#000000;" parent="YPQyTHNSfD8Q9DfAZzBo-1" vertex="1">
-          <mxGeometry x="840" y="450" width="180" height="100" as="geometry" />
+          <mxGeometry x="860" y="450" width="180" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
