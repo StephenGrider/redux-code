@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-27T17:33:52.333Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="55uhyCFFoJ999xlCFXq8" version="13.3.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-06-27T17:45:07.068Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="iVA1ARaj7Jo37kHlxtqq" version="13.3.5" type="github" pages="5">
   <diagram id="tTfpBEVDdLUoQQhYmFDy" name="01 - mock">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -282,7 +282,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TtE_Y9gWiav2sqwy31Hz" name="05 - convert">
-    <mxGraphModel dx="653" dy="321" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="546" dy="269" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="b-qib5iUpxtBxJhAPNHi-0" />
         <mxCell id="b-qib5iUpxtBxJhAPNHi-1" parent="b-qib5iUpxtBxJhAPNHi-0" />
@@ -362,7 +362,7 @@
         <mxCell id="nyTCWZdrCKc9JzWcF_wm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="nyTCWZdrCKc9JzWcF_wm-1" source="nyTCWZdrCKc9JzWcF_wm-4" target="nyTCWZdrCKc9JzWcF_wm-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nyTCWZdrCKc9JzWcF_wm-4" value="This is a &lt;b&gt;paid api&lt;/b&gt;.&amp;nbsp; I will give you an API key in the next video that you can use for free" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=18;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="nyTCWZdrCKc9JzWcF_wm-1">
+        <mxCell id="nyTCWZdrCKc9JzWcF_wm-4" value="This is a &lt;b&gt;paid api&lt;/b&gt;.&amp;nbsp; I will give you an API key in the next text lecture that you can use for free" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=18;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="nyTCWZdrCKc9JzWcF_wm-1">
           <mxGeometry x="570" y="380" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nyTCWZdrCKc9JzWcF_wm-6" value="The API key will &lt;b&gt;only work if you are running your app on localhost:3000&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=18;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="nyTCWZdrCKc9JzWcF_wm-1">
