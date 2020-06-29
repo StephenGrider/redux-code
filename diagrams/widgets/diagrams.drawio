@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-29T17:29:46.536Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="E-9Ky1bZZ-iyfGE11BgP" version="13.3.5" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2020-06-29T17:41:12.245Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="EJq7TQ35dL6cStgA-Z4p" version="13.3.5" type="github" pages="8">
   <diagram id="EvLtTyISAtRJ5Ij_rjxi" name="01 - nav">
     <mxGraphModel dx="546" dy="269" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -331,7 +331,7 @@
         <mxCell id="aomX_QHisibF4S5sRQFF-6" value="Route" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=21;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="aomX_QHisibF4S5sRQFF-1">
           <mxGeometry x="920" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aomX_QHisibF4S5sRQFF-7" value="Dropdown" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=21;" vertex="1" parent="aomX_QHisibF4S5sRQFF-1">
+        <mxCell id="aomX_QHisibF4S5sRQFF-7" value="Accordion" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=21;" vertex="1" parent="aomX_QHisibF4S5sRQFF-1">
           <mxGeometry x="480" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aomX_QHisibF4S5sRQFF-8" value="Search" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=21;" vertex="1" parent="aomX_QHisibF4S5sRQFF-1">
