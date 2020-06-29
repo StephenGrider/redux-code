@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-29T17:10:38.005Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="47txCNnzaoBmSukzE-BX" version="13.3.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-06-29T17:16:50.766Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="2moyZDTcs8DCggcbqWXu" version="13.3.5" type="github" pages="6">
   <diagram id="EvLtTyISAtRJ5Ij_rjxi" name="01 - nav">
     <mxGraphModel dx="546" dy="269" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -194,6 +194,35 @@
         </mxCell>
         <mxCell id="IBuZjNX2_wZZJkgYTWR5-7" value="Tends to be really, really fast!" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=11;" vertex="1" parent="IBuZjNX2_wZZJkgYTWR5-1">
           <mxGeometry x="770" y="350" width="240" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="wd9DTNOgG8Vjzrf0F1Xp" name="06 - mapping">
+    <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="NpAuTARgRr9722vNQLMh-0" />
+        <mxCell id="NpAuTARgRr9722vNQLMh-1" parent="NpAuTARgRr9722vNQLMh-0" />
+        <mxCell id="ZXyR6lZ39pOsHLSAmXpX-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="NpAuTARgRr9722vNQLMh-1" source="ZXyR6lZ39pOsHLSAmXpX-1" target="ZXyR6lZ39pOsHLSAmXpX-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZXyR6lZ39pOsHLSAmXpX-1" value="Need to hide/show components based on the URL" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="NpAuTARgRr9722vNQLMh-1">
+          <mxGeometry x="510" y="270" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZXyR6lZ39pOsHLSAmXpX-2" value="When we go to a route of &#39;/list&#39;, we should show the Wikipedia search widget.&lt;br&gt;When we go to a route of &#39;/dropdown&#39;, we should show the Dropdown compoennt" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=11;" vertex="1" parent="NpAuTARgRr9722vNQLMh-1">
+          <mxGeometry x="810" y="270" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D8s5yPbQTHlmVv_hOP7A-0" value="Navigation Requirements" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=20;" vertex="1" parent="NpAuTARgRr9722vNQLMh-1">
+          <mxGeometry x="525" y="246" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="D8s5yPbQTHlmVv_hOP7A-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="NpAuTARgRr9722vNQLMh-1" source="D8s5yPbQTHlmVv_hOP7A-1" target="D8s5yPbQTHlmVv_hOP7A-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D8s5yPbQTHlmVv_hOP7A-1" value="Need to be able to change the URL &lt;i style=&quot;font-size: 15px;&quot;&gt;without&lt;/i&gt;&amp;nbsp;causing a full page reload" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="NpAuTARgRr9722vNQLMh-1">
+          <mxGeometry x="510" y="350" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D8s5yPbQTHlmVv_hOP7A-2" value="Users still need to be able to click an &#39;a&#39; tag and see the page change. But clicking on an &#39;a&#39; tag normally causes a full page reload!" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=11;" vertex="1" parent="NpAuTARgRr9722vNQLMh-1">
+          <mxGeometry x="810" y="350" width="240" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
