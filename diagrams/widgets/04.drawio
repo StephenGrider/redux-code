@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-27T17:45:07.068Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="iVA1ARaj7Jo37kHlxtqq" version="13.3.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-06-29T16:22:45.203Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="uCapskygDsmxN13F7tQC" version="13.3.5" type="github" pages="6">
   <diagram id="tTfpBEVDdLUoQQhYmFDy" name="01 - mock">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -367,6 +367,118 @@
         </mxCell>
         <mxCell id="nyTCWZdrCKc9JzWcF_wm-6" value="The API key will &lt;b&gt;only work if you are running your app on localhost:3000&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=18;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="nyTCWZdrCKc9JzWcF_wm-1">
           <mxGeometry x="570" y="460" width="390" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="B-UXu06Q2itb_uQeYubN" name="06 - debounce">
+    <mxGraphModel dx="733" dy="360" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="uQr5mACuiCN49q9tMvPn-0" />
+        <mxCell id="uQr5mACuiCN49q9tMvPn-1" parent="uQr5mACuiCN49q9tMvPn-0" />
+        <mxCell id="LKrJtNfQFIklZ9-3h_Q7-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="uQr5mACuiCN49q9tMvPn-1" source="LKrJtNfQFIklZ9-3h_Q7-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="85.14285714285711" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LKrJtNfQFIklZ9-3h_Q7-1" value="Initial Component Render" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="uQr5mACuiCN49q9tMvPn-1">
+          <mxGeometry x="580" y="60" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LKrJtNfQFIklZ9-3h_Q7-2" value="" style="endArrow=classic;html=1;fontSize=17;" edge="1" parent="uQr5mACuiCN49q9tMvPn-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="60" as="sourcePoint" />
+            <mxPoint x="570" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LKrJtNfQFIklZ9-3h_Q7-3" value="text === &#39;&#39;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="uQr5mACuiCN49q9tMvPn-1">
+          <mxGeometry x="780" y="67.5" width="150" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="LKrJtNfQFIklZ9-3h_Q7-4" value="debouncedText === &#39;&#39;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="uQr5mACuiCN49q9tMvPn-1">
+          <mxGeometry x="930" y="67.5" width="220" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="LKrJtNfQFIklZ9-3h_Q7-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="uQr5mACuiCN49q9tMvPn-1" source="LKrJtNfQFIklZ9-3h_Q7-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LKrJtNfQFIklZ9-3h_Q7-6" value="User Types Something" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="uQr5mACuiCN49q9tMvPn-1">
+          <mxGeometry x="580" y="210" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LKrJtNfQFIklZ9-3h_Q7-7" value="term === &#39;programming bo&#39;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="uQr5mACuiCN49q9tMvPn-1">
+          <mxGeometry x="960" y="217.5" width="180" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="LKrJtNfQFIklZ9-3h_Q7-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=13;" edge="1" parent="uQr5mACuiCN49q9tMvPn-1" source="LKrJtNfQFIklZ9-3h_Q7-9" target="LKrJtNfQFIklZ9-3h_Q7-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LKrJtNfQFIklZ9-3h_Q7-9" value="Immediately update &#39;term&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;shadow=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="uQr5mACuiCN49q9tMvPn-1">
+          <mxGeometry x="780" y="210" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LKrJtNfQFIklZ9-3h_Q7-10" value="Set a timer to update &#39;debouncedTerm&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;shadow=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="uQr5mACuiCN49q9tMvPn-1">
+          <mxGeometry x="780" y="260" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LKrJtNfQFIklZ9-3h_Q7-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="uQr5mACuiCN49q9tMvPn-1" source="LKrJtNfQFIklZ9-3h_Q7-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LKrJtNfQFIklZ9-3h_Q7-12" value="User Types Something" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="uQr5mACuiCN49q9tMvPn-1">
+          <mxGeometry x="580" y="330" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LKrJtNfQFIklZ9-3h_Q7-13" value="term === &#39;programming books&#39;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="uQr5mACuiCN49q9tMvPn-1">
+          <mxGeometry x="960" y="382.5" width="180" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="LKrJtNfQFIklZ9-3h_Q7-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=13;" edge="1" parent="uQr5mACuiCN49q9tMvPn-1" source="LKrJtNfQFIklZ9-3h_Q7-15" target="LKrJtNfQFIklZ9-3h_Q7-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LKrJtNfQFIklZ9-3h_Q7-15" value="Immediately update &#39;term&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;shadow=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="uQr5mACuiCN49q9tMvPn-1">
+          <mxGeometry x="780" y="375" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LKrJtNfQFIklZ9-3h_Q7-16" value="Set a timer to update &#39;debouncedTerm&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;shadow=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="uQr5mACuiCN49q9tMvPn-1">
+          <mxGeometry x="780" y="425" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LKrJtNfQFIklZ9-3h_Q7-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="uQr5mACuiCN49q9tMvPn-1" source="LKrJtNfQFIklZ9-3h_Q7-18" target="LKrJtNfQFIklZ9-3h_Q7-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LKrJtNfQFIklZ9-3h_Q7-18" value="Cancel previous timer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;shadow=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="uQr5mACuiCN49q9tMvPn-1">
+          <mxGeometry x="780" y="335" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LKrJtNfQFIklZ9-3h_Q7-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=13;" edge="1" parent="uQr5mACuiCN49q9tMvPn-1" source="LKrJtNfQFIklZ9-3h_Q7-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LKrJtNfQFIklZ9-3h_Q7-20" value="User stops typing for 500ms" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="uQr5mACuiCN49q9tMvPn-1">
+          <mxGeometry x="580" y="490" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LKrJtNfQFIklZ9-3h_Q7-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=13;" edge="1" parent="uQr5mACuiCN49q9tMvPn-1" source="LKrJtNfQFIklZ9-3h_Q7-22" target="LKrJtNfQFIklZ9-3h_Q7-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LKrJtNfQFIklZ9-3h_Q7-22" value="&#39;debouncedTerm&#39; updated" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;shadow=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="uQr5mACuiCN49q9tMvPn-1">
+          <mxGeometry x="780" y="495" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LKrJtNfQFIklZ9-3h_Q7-23" value="debouncedTerm === &#39;programming books&#39;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="uQr5mACuiCN49q9tMvPn-1">
+          <mxGeometry x="960" y="497.5" width="240" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="LKrJtNfQFIklZ9-3h_Q7-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=13;" edge="1" parent="uQr5mACuiCN49q9tMvPn-1" source="LKrJtNfQFIklZ9-3h_Q7-25" target="LKrJtNfQFIklZ9-3h_Q7-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LKrJtNfQFIklZ9-3h_Q7-25" value="useEffect watching &#39;debouncedTerm&#39; runs" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;shadow=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="uQr5mACuiCN49q9tMvPn-1">
+          <mxGeometry x="780" y="575" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LKrJtNfQFIklZ9-3h_Q7-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=13;" edge="1" parent="uQr5mACuiCN49q9tMvPn-1" source="LKrJtNfQFIklZ9-3h_Q7-27" target="LKrJtNfQFIklZ9-3h_Q7-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LKrJtNfQFIklZ9-3h_Q7-27" value="State update causes rerender" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="uQr5mACuiCN49q9tMvPn-1">
+          <mxGeometry x="580" y="570" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LKrJtNfQFIklZ9-3h_Q7-28" value="Data fetched" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;shadow=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="uQr5mACuiCN49q9tMvPn-1">
+          <mxGeometry x="780" y="640" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LKrJtNfQFIklZ9-3h_Q7-29" value="useEffect for &#39;debouncedTerm&#39; runs" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;shadow=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="uQr5mACuiCN49q9tMvPn-1">
+          <mxGeometry x="960" y="102.5" width="160" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="LKrJtNfQFIklZ9-3h_Q7-30" value="Initial data fetch complete" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;shadow=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="uQr5mACuiCN49q9tMvPn-1">
+          <mxGeometry x="960" y="140" width="160" height="37.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
