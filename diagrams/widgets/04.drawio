@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-29T16:35:49.652Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="Sc3s-6HiXILZpgoNNJjZ" version="13.3.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-06-29T16:57:51.040Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="5eAYSrmxKjWJP0C_ub_t" version="13.3.5" type="github" pages="6">
   <diagram id="tTfpBEVDdLUoQQhYmFDy" name="01 - mock">
     <mxGraphModel dx="858" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="H6rH7qP9LtrLrUbEfEKQ-2" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="H6rH7qP9LtrLrUbEfEKQ-1">
           <mxGeometry x="60" y="12" width="110" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="H6rH7qP9LtrLrUbEfEKQ-3" value="localhost" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="H6rH7qP9LtrLrUbEfEKQ-1">
+        <mxCell id="H6rH7qP9LtrLrUbEfEKQ-3" value="localhost:3000" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="H6rH7qP9LtrLrUbEfEKQ-1">
           <mxGeometry x="130" y="60" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="H6rH7qP9LtrLrUbEfEKQ-4" value="&lt;b&gt;&amp;nbsp; V&amp;nbsp; What is React?&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;React is a Javascript front-end library. It is used to show content to users and handle user events.&lt;br&gt;Engineers use React to create reusable&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; components&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="H6rH7qP9LtrLrUbEfEKQ-1">
@@ -46,7 +46,7 @@
         <mxCell id="H6rH7qP9LtrLrUbEfEKQ-13" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="H6rH7qP9LtrLrUbEfEKQ-12">
           <mxGeometry x="60" y="12" width="110" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="H6rH7qP9LtrLrUbEfEKQ-14" value="localhost/dropdown" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="H6rH7qP9LtrLrUbEfEKQ-12">
+        <mxCell id="H6rH7qP9LtrLrUbEfEKQ-14" value="localhost:3000/dropdown" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="H6rH7qP9LtrLrUbEfEKQ-12">
           <mxGeometry x="130" y="60" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="H6rH7qP9LtrLrUbEfEKQ-15" value="" style="endArrow=none;html=1;" edge="1" parent="H6rH7qP9LtrLrUbEfEKQ-12">
@@ -88,7 +88,7 @@
         <mxCell id="H6rH7qP9LtrLrUbEfEKQ-26" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="H6rH7qP9LtrLrUbEfEKQ-25">
           <mxGeometry x="60" y="12" width="110" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="H6rH7qP9LtrLrUbEfEKQ-27" value="localhost/translate" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="H6rH7qP9LtrLrUbEfEKQ-25">
+        <mxCell id="H6rH7qP9LtrLrUbEfEKQ-27" value="localhost:3000/translate" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="H6rH7qP9LtrLrUbEfEKQ-25">
           <mxGeometry x="130" y="60" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="H6rH7qP9LtrLrUbEfEKQ-28" value="" style="endArrow=none;html=1;" edge="1" parent="H6rH7qP9LtrLrUbEfEKQ-25">
@@ -142,7 +142,7 @@
         <mxCell id="H6rH7qP9LtrLrUbEfEKQ-43" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="H6rH7qP9LtrLrUbEfEKQ-42">
           <mxGeometry x="60" y="12" width="110" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="H6rH7qP9LtrLrUbEfEKQ-44" value="localhost/dropdown" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="H6rH7qP9LtrLrUbEfEKQ-42">
+        <mxCell id="H6rH7qP9LtrLrUbEfEKQ-44" value="localhost:3000/list" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="H6rH7qP9LtrLrUbEfEKQ-42">
           <mxGeometry x="130" y="60" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="H6rH7qP9LtrLrUbEfEKQ-45" value="" style="endArrow=none;html=1;" edge="1" parent="H6rH7qP9LtrLrUbEfEKQ-42">
