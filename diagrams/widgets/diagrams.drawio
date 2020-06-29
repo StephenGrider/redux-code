@@ -1,1 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2020-06-29T16:46:10.324Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" version="13.3.5" etag="kAa1JaND4bf7i-OZn0cW" type="github"><diagram id="EvLtTyISAtRJ5Ij_rjxi">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-06-29T16:47:29.195Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="ZQQglmqX8JGC9BR9lg9l" version="13.3.5" type="github">
+  <diagram id="EvLtTyISAtRJ5Ij_rjxi" name="01 - nav">
+    <mxGraphModel dx="546" dy="269" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LK_5RgPKCHif1HQFwU3r-1" value="Navigation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=34;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="570" y="250" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LK_5RgPKCHif1HQFwU3r-4" value="Showing different sets of components when the URL changes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="637.5" y="320" width="245" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
