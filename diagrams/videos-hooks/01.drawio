@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-30T15:36:28.391Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="C6l5atucwoWANxJeyqHj" version="13.3.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-06-30T16:10:42.218Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="XhYrFfmvyHs1B7jSftHK" version="13.3.5" type="github" pages="3">
   <diagram id="0aloGiby_6SStI5hnPZM" name="01 - opt">
     <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -17,7 +17,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="44hC0pz-Bjtog6nfaldK" name="02 - parts">
-    <mxGraphModel dx="751" dy="370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="567" dy="279" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="DcG3RG0hzEKghCluoZCG-0" />
         <mxCell id="DcG3RG0hzEKghCluoZCG-1" parent="DcG3RG0hzEKghCluoZCG-0" />
@@ -47,6 +47,26 @@
         </mxCell>
         <mxCell id="DcG3RG0hzEKghCluoZCG-6" value="VideoDetail" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="DcG3RG0hzEKghCluoZCG-1">
           <mxGeometry x="960" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="owRIlmFay1Ql-1MS50Le" name="03 - custom">
+    <mxGraphModel dx="626" dy="308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="wnhWTlwjpR1loJEGXNcP-0" />
+        <mxCell id="wnhWTlwjpR1loJEGXNcP-1" parent="wnhWTlwjpR1loJEGXNcP-0" />
+        <mxCell id="wnhWTlwjpR1loJEGXNcP-2" value="Custom Hooks" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="wnhWTlwjpR1loJEGXNcP-1">
+          <mxGeometry x="540" y="120" width="520" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wnhWTlwjpR1loJEGXNcP-3" value="Created by extracting hook-related code out of a function component" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;shadow=1;fontStyle=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="wnhWTlwjpR1loJEGXNcP-1">
+          <mxGeometry x="540" y="240" width="520" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wnhWTlwjpR1loJEGXNcP-4" value="Best way to create reusable code in a React project (besides components!)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;shadow=1;fontStyle=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="wnhWTlwjpR1loJEGXNcP-1">
+          <mxGeometry x="540" y="180" width="520" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wnhWTlwjpR1loJEGXNcP-5" value="Kind of an art form!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;shadow=1;fontStyle=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="wnhWTlwjpR1loJEGXNcP-1">
+          <mxGeometry x="540" y="300" width="520" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
