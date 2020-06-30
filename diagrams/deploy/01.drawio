@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-30T17:24:22.092Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="zAFEmv7nySKfFix2rohP" version="13.3.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-06-30T17:25:37.020Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="DOSPYHl00ZnpBnjPzTvG" version="13.3.5" type="github" pages="4">
   <diagram id="4VAZqOWcAgnW1q86nhIi" name="01 - deployment">
     <mxGraphModel dx="501" dy="246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -157,6 +157,23 @@
         </mxCell>
         <mxCell id="o9zbbyRGlyBa02Vo5Ri7-24" value="We don&#39;t need a full VM, as we are &lt;i style=&quot;font-size: 23px;&quot;&gt;not executing any code&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;" vertex="1" parent="v8jmvIC5-OTe7V4W9PUi-1">
           <mxGeometry x="710" y="150" width="670" height="54" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="E_X6bMi6QR2bBR1VumdU" name="04 - depl">
+    <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="14_UtUNMPPEJt3Rvv-PH-0" />
+        <mxCell id="14_UtUNMPPEJt3Rvv-PH-1" parent="14_UtUNMPPEJt3Rvv-PH-0" />
+        <mxCell id="14_UtUNMPPEJt3Rvv-PH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=23;" edge="1" parent="14_UtUNMPPEJt3Rvv-PH-1" source="14_UtUNMPPEJt3Rvv-PH-2" target="14_UtUNMPPEJt3Rvv-PH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="14_UtUNMPPEJt3Rvv-PH-2" value="I am going to deploy the Youtube app" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=23;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="14_UtUNMPPEJt3Rvv-PH-1">
+          <mxGeometry x="540" y="250" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="14_UtUNMPPEJt3Rvv-PH-3" value="The deployment process is identical for any project using create-react-app" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=23;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="14_UtUNMPPEJt3Rvv-PH-1">
+          <mxGeometry x="540" y="360" width="490" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
