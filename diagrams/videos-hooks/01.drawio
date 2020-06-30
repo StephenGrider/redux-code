@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-30T16:42:31.131Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="win5gUA6RSRd7DGJf_8o" version="13.3.5" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2020-06-30T16:43:17.010Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="nADLFLmp6jlaG2Hqi0jU" version="13.3.5" type="github" pages="8">
   <diagram id="0aloGiby_6SStI5hnPZM" name="01 - opt">
     <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -52,7 +52,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="owRIlmFay1Ql-1MS50Le" name="03 - custom">
-    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="812" dy="399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="wnhWTlwjpR1loJEGXNcP-0" />
         <mxCell id="wnhWTlwjpR1loJEGXNcP-1" parent="wnhWTlwjpR1loJEGXNcP-0" />
@@ -60,19 +60,22 @@
           <mxGeometry x="540" y="120" width="520" height="50" as="geometry" />
         </mxCell>
         <mxCell id="wnhWTlwjpR1loJEGXNcP-3" value="Created by extracting hook-related code out of a function component" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;shadow=1;fontStyle=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="wnhWTlwjpR1loJEGXNcP-1">
-          <mxGeometry x="540" y="240" width="520" height="50" as="geometry" />
+          <mxGeometry x="540" y="238" width="520" height="50" as="geometry" />
         </mxCell>
         <mxCell id="wnhWTlwjpR1loJEGXNcP-4" value="Best way to create reusable code in a React project (besides components!)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;shadow=1;fontStyle=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="wnhWTlwjpR1loJEGXNcP-1">
           <mxGeometry x="540" y="180" width="520" height="50" as="geometry" />
         </mxCell>
         <mxCell id="wnhWTlwjpR1loJEGXNcP-5" value="Each custom hook should have &lt;i&gt;one purpose&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;shadow=1;fontStyle=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="wnhWTlwjpR1loJEGXNcP-1">
-          <mxGeometry x="540" y="300" width="520" height="50" as="geometry" />
+          <mxGeometry x="540" y="354" width="520" height="50" as="geometry" />
         </mxCell>
         <mxCell id="wnhWTlwjpR1loJEGXNcP-6" value="Kind of an art form!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;shadow=1;fontStyle=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="wnhWTlwjpR1loJEGXNcP-1">
-          <mxGeometry x="540" y="360" width="520" height="50" as="geometry" />
+          <mxGeometry x="540" y="412" width="520" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Ofjvn1SzNkdvtWvDjNwi-0" value="Data-fetching is a great thing to try to make reusable" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;shadow=1;fontStyle=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="wnhWTlwjpR1loJEGXNcP-1">
-          <mxGeometry x="540" y="420" width="520" height="50" as="geometry" />
+          <mxGeometry x="540" y="470" width="520" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="u7va7MZAnJJEdShnZoen-0" value="Custom hooks &lt;i&gt;always&lt;/i&gt;&amp;nbsp;make use of at least one primitive hook" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;shadow=1;fontStyle=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="wnhWTlwjpR1loJEGXNcP-1">
+          <mxGeometry x="540" y="296" width="520" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
