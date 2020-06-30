@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-30T16:43:22.306Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="NrUzS4INlROHtB8GS7h1" version="13.3.5" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2020-06-30T16:44:10.594Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="JOGqSSDX_bqs_ewX2KDO" version="13.3.5" type="github" pages="9">
   <diagram id="0aloGiby_6SStI5hnPZM" name="01 - opt">
     <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -47,6 +47,20 @@
         </mxCell>
         <mxCell id="DcG3RG0hzEKghCluoZCG-6" value="VideoDetail" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="DcG3RG0hzEKghCluoZCG-1">
           <mxGeometry x="960" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vX3OM4P0vGLm70u1a7Kv" name="09 - reuse">
+    <mxGraphModel dx="715" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="o8moAHHPPj60j8DVjwNR-0" />
+        <mxCell id="o8moAHHPPj60j8DVjwNR-1" parent="o8moAHHPPj60j8DVjwNR-0" />
+        <mxCell id="D6Uup0e-u5sNCzEaemKs-0" value="App Component&lt;br style=&quot;font-size: 22px;&quot;&gt;&lt;br style=&quot;font-size: 22px;&quot;&gt;&lt;br style=&quot;font-size: 22px;&quot;&gt;&lt;br style=&quot;font-size: 22px;&quot;&gt;&lt;br style=&quot;font-size: 22px;&quot;&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=22;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="o8moAHHPPj60j8DVjwNR-1">
+          <mxGeometry x="640" y="260" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="D6Uup0e-u5sNCzEaemKs-1" value="video fetching logic" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=22;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="o8moAHHPPj60j8DVjwNR-1">
+          <mxGeometry x="650" y="320" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
