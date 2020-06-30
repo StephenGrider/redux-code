@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-30T18:16:41.061Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="gUaGuMReGD6uHZHgumik" version="13.3.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-06-30T19:00:57.722Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="9r-dwWoZFdleLDRruAPd" version="13.3.5" type="github" pages="6">
   <diagram id="4VAZqOWcAgnW1q86nhIi" name="01 - deployment">
     <mxGraphModel dx="501" dy="246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -200,6 +200,41 @@
         </mxCell>
         <mxCell id="CrAoUBXbE71SIVnRb4NY-8" value="Run &#39;vercel&#39; in our project directory" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="CrAoUBXbE71SIVnRb4NY-1">
           <mxGeometry x="510" y="310" width="440" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fzFD7RcbziWbIBBHcNbB" name="06 - netlify">
+    <mxGraphModel dx="699" dy="344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="fTzyA8fpe-VPkdKGKOni-0" />
+        <mxCell id="fTzyA8fpe-VPkdKGKOni-1" parent="fTzyA8fpe-VPkdKGKOni-0" />
+        <mxCell id="ulahtg5B2qJvVCXb6ZoE-0" value="Netlify Deployment" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fTzyA8fpe-VPkdKGKOni-1">
+          <mxGeometry x="510" y="130" width="440" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ulahtg5B2qJvVCXb6ZoE-1" value="Create a github repo for your project" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="fTzyA8fpe-VPkdKGKOni-1">
+          <mxGeometry x="510" y="190" width="440" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ulahtg5B2qJvVCXb6ZoE-2" value="" style="endArrow=classic;html=1;fontSize=16;" edge="1" parent="fTzyA8fpe-VPkdKGKOni-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="190" as="sourcePoint" />
+            <mxPoint x="500" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulahtg5B2qJvVCXb6ZoE-3" value="Commit changes to your project locally" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="fTzyA8fpe-VPkdKGKOni-1">
+          <mxGeometry x="510" y="250" width="440" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ulahtg5B2qJvVCXb6ZoE-4" value="Link your project to the new repo" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="fTzyA8fpe-VPkdKGKOni-1">
+          <mxGeometry x="510" y="310" width="440" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ulahtg5B2qJvVCXb6ZoE-5" value="Push your code to github" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="fTzyA8fpe-VPkdKGKOni-1">
+          <mxGeometry x="510" y="370" width="440" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ulahtg5B2qJvVCXb6ZoE-6" value="Sign up for an account at netlify.com" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="fTzyA8fpe-VPkdKGKOni-1">
+          <mxGeometry x="510" y="430" width="440" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ulahtg5B2qJvVCXb6ZoE-7" value="Link your github account, select the repo you want to deploy" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="fTzyA8fpe-VPkdKGKOni-1">
+          <mxGeometry x="510" y="490" width="440" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
