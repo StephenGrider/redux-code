@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-30T16:43:17.010Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="nADLFLmp6jlaG2Hqi0jU" version="13.3.5" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2020-06-30T16:43:22.306Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="NrUzS4INlROHtB8GS7h1" version="13.3.5" type="github" pages="8">
   <diagram id="0aloGiby_6SStI5hnPZM" name="01 - opt">
     <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -74,7 +74,7 @@
         <mxCell id="Ofjvn1SzNkdvtWvDjNwi-0" value="Data-fetching is a great thing to try to make reusable" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;shadow=1;fontStyle=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="wnhWTlwjpR1loJEGXNcP-1">
           <mxGeometry x="540" y="470" width="520" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="u7va7MZAnJJEdShnZoen-0" value="Custom hooks &lt;i&gt;always&lt;/i&gt;&amp;nbsp;make use of at least one primitive hook" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;shadow=1;fontStyle=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="wnhWTlwjpR1loJEGXNcP-1">
+        <mxCell id="u7va7MZAnJJEdShnZoen-0" value="Custom hooks &lt;i&gt;always&lt;/i&gt;&amp;nbsp;make use of at least one primitive hook internally" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;shadow=1;fontStyle=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="wnhWTlwjpR1loJEGXNcP-1">
           <mxGeometry x="540" y="296" width="520" height="50" as="geometry" />
         </mxCell>
       </root>
