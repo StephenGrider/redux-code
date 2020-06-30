@@ -1,1 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2020-06-29T21:16:57.948Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" version="13.3.5" etag="LRB8dkoYm951VNVJsITG" type="github"><diagram id="0aloGiby_6SStI5hnPZM">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-06-30T15:29:57.183Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="uRGxcRMIACVkiwLFqg5M" version="13.3.5" type="github" pages="2">
+  <diagram id="0aloGiby_6SStI5hnPZM" name="01 - opt">
+    <mxGraphModel dx="601" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ep7-reyc38IQqi1uKWZf-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=22;" edge="1" parent="1" source="Ep7-reyc38IQqi1uKWZf-1" target="Ep7-reyc38IQqi1uKWZf-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ep7-reyc38IQqi1uKWZf-1" value="Optional App!" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=22;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="670" y="260" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ep7-reyc38IQqi1uKWZf-2" value="Rebuild the Youtube Videos App with Hooks" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="670" y="340" width="300" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="44hC0pz-Bjtog6nfaldK" name="02 - parts">
+    <mxGraphModel dx="751" dy="370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="DcG3RG0hzEKghCluoZCG-0" />
+        <mxCell id="DcG3RG0hzEKghCluoZCG-1" parent="DcG3RG0hzEKghCluoZCG-0" />
+        <mxCell id="DcG3RG0hzEKghCluoZCG-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=22;" edge="1" parent="DcG3RG0hzEKghCluoZCG-1" source="DcG3RG0hzEKghCluoZCG-2" target="DcG3RG0hzEKghCluoZCG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DcG3RG0hzEKghCluoZCG-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=22;" edge="1" parent="DcG3RG0hzEKghCluoZCG-1" source="DcG3RG0hzEKghCluoZCG-2" target="DcG3RG0hzEKghCluoZCG-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DcG3RG0hzEKghCluoZCG-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=22;" edge="1" parent="DcG3RG0hzEKghCluoZCG-1" source="DcG3RG0hzEKghCluoZCG-2" target="DcG3RG0hzEKghCluoZCG-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DcG3RG0hzEKghCluoZCG-2" value="App" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="DcG3RG0hzEKghCluoZCG-1">
+          <mxGeometry x="790" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DcG3RG0hzEKghCluoZCG-3" value="SearchBar" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="DcG3RG0hzEKghCluoZCG-1">
+          <mxGeometry x="620" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DcG3RG0hzEKghCluoZCG-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=22;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="DcG3RG0hzEKghCluoZCG-1" source="DcG3RG0hzEKghCluoZCG-4" target="DcG3RG0hzEKghCluoZCG-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DcG3RG0hzEKghCluoZCG-4" value="VideoList" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="DcG3RG0hzEKghCluoZCG-1">
+          <mxGeometry x="790" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DcG3RG0hzEKghCluoZCG-5" value="VideoItem" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="DcG3RG0hzEKghCluoZCG-1">
+          <mxGeometry x="790" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DcG3RG0hzEKghCluoZCG-6" value="VideoDetail" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="DcG3RG0hzEKghCluoZCG-1">
+          <mxGeometry x="960" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
