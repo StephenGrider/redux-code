@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "http://stephengrider.github.io/redux-code",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "diff": "^3.5.0",
     "gh-pages": "^2.0.1",
     "lodash": "^4.17.11",
