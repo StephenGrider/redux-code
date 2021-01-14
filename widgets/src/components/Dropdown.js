@@ -44,7 +44,7 @@ const Dropdown = ({ label, options, selected, onSelectedChange }) => {
           onClick={() => setOpen(!open)}
           className={`ui selection dropdown ${open ? 'visible active' : ''}`}
         >
-          <i className="dropdown icon"></i>
+          <i className="dropdown icon" style={open?{transform:'rotate(180deg)'}:{transform:'rotate(0deg)'}}></i>
           <div className="text">{selected.label}</div>
           <div className={`menu ${open ? 'visible transition' : ''}`}>
             {renderedOptions}
