@@ -1,9 +1,12 @@
 import _ from 'lodash';
 import React from 'react';
+
 import ReactDOM from 'react-dom';
 import Upload from './Upload';
+
 import BranchSelector from './BranchSelector';
 import LocalFetcher from './LocalFetcher';
+
 import GithubFetcher from './GithubFetcher';
 import CompareProject from './CompareProject';
 
